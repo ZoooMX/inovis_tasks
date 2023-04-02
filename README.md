@@ -33,10 +33,12 @@ mrr, stg, dwh - нужно почитать и понять почему мы с
 б. Таблица клиентов - customers: id, name, country
 в. Таблица продуктов- products : id, name, groupname
 
+##### Процесс выполнения 
+БД разворачивал в Docker 
+**Скрипт DLL и DML комманд -> [inovus_ODB.sql](https://github.com/ZoooMX/inovus_tasks/blob/main/SQL/inovus_ODB.sql)**
+
 Было принято решение использовать для оперативной базы данных PostgreSQL. Данная БД использвуется очень широко на рынке, часто ее используют на бэкенде(пообщался с знакомими програмистами) Основные отличия приведены в таблице ниже.
 ![image](https://user-images.githubusercontent.com/99000578/229366000-0508f3ae-fe2f-475b-8231-3d4a40196371.png)
 
-БД разворачивал в Docker 
-Скрипт DLL и DML комманд -> [inovus_ODB.sql]([inovus_ODB.sql](https://github.com/ZoooMX/inovus_tasks/blob/main/SQL/inovus_ODB.sql))
 
 #### Задача_2.
