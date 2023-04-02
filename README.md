@@ -115,4 +115,5 @@ mrr, stg, dwh - нужно почитать и понять почему мы с
 <img width="735" alt="Pasted Graphic 1" src="https://user-images.githubusercontent.com/99000578/229371276-2d27f422-7e3e-434b-9930-30491531e88f.png">
 2. Создание дамп-файла
 > pg_dump -U inovus inovus > inovus_backup.dump
+
  <img width="705" alt="Pasted Graphic" src="https://user-images.githubusercontent.com/99000578/229371307-60953023-092f-43bf-9029-191824b28a6d.png">
