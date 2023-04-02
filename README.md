@@ -68,10 +68,10 @@ mrr, stg, dwh - нужно почитать и понять почему мы с
 Из оперативной базы данных в mrr брать данные с помощью high water mark(дельта).Для этого создать таблицу high_water_mark в который будет последний день или апдейт каждой таблицы. В mrr вытягиваем в параметр время в соответствии с таблицей источникам и в dwh обновляем high_water_mark последним значением которое есть в таблице.
 ##### Процесс выполнения 
 Выбран инструмент для реализации ETL - Apache Airflow. Запуск осуществлялся через Docker, параметры запуска [Docker-compose.yaml](https://github.com/ZoooMX/inovus_tasks/blob/main/airflow/docker-compose.yaml).     
-- первый Python скрипт [ETL ODB -> MRR -> high_water_mark](https://github.com/ZoooMX/inovus_tasks/blob/main/airflow/dags/inovus_etl_odb_mrr.py)
-- второй Python скрипт [ETL MRR -> STG](https://github.com/ZoooMX/inovus_tasks/blob/main/airflow/dags/inovus_etl_mrr_stg.py)
-- третий Python скрипт [ETL STG -> DWH -> high_water_mark](https://github.com/ZoooMX/inovus_tasks/blob/main/airflow/dags/inovus_etl_stg_dwh.py)
-Скрин Airflow <img width="918" alt="image" src="https://user-images.githubusercontent.com/99000578/229368243-df4563c6-fff7-4577-8422-cfe040bc019c.png">
+1. Python скрипт [ETL ODB -> MRR -> high_water_mark](https://github.com/ZoooMX/inovus_tasks/blob/main/airflow/dags/inovus_etl_odb_mrr.py)
+2. Python скрипт [ETL MRR -> STG](https://github.com/ZoooMX/inovus_tasks/blob/main/airflow/dags/inovus_etl_mrr_stg.py)
+3. Python скрипт [ETL STG -> DWH -> high_water_mark](https://github.com/ZoooMX/inovus_tasks/blob/main/airflow/dags/inovus_etl_stg_dwh.py)
+- **Скрин Airflow с DAG** <img width="918" alt="image" src="https://user-images.githubusercontent.com/99000578/229368243-df4563c6-fff7-4577-8422-cfe040bc019c.png">
 - **ETL ODB -> MRR -> high_water_mark** ![image](https://user-images.githubusercontent.com/99000578/229368631-08617d27-d522-48b5-b51d-ab9367fd2b1e.png)
 - **ETL MRR -> STG** ![image](https://user-images.githubusercontent.com/99000578/229368659-12ad80b9-e19d-4482-a7ae-9449caf657fe.png)
 - **ETL STG -> DWH -> high_water_mark** ![image](https://user-images.githubusercontent.com/99000578/229369392-ada38374-011a-4072-a17d-37da24da7072.png)
