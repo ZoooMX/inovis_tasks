@@ -1,0 +1,22 @@
+[2023-03-28 18:08:42,213] {taskinstance.py:903} INFO - Dependencies all met for <TaskInstance: postgres_etl_dag_radb_to_mmr.etl_from_radb_to_mrrdimcproducts 2023-03-28T18:08:39.265702+00:00 [queued]>
+[2023-03-28 18:08:42,281] {taskinstance.py:903} INFO - Dependencies all met for <TaskInstance: postgres_etl_dag_radb_to_mmr.etl_from_radb_to_mrrdimcproducts 2023-03-28T18:08:39.265702+00:00 [queued]>
+[2023-03-28 18:08:42,284] {taskinstance.py:1095} INFO - 
+--------------------------------------------------------------------------------
+[2023-03-28 18:08:42,286] {taskinstance.py:1096} INFO - Starting attempt 1 of 1
+[2023-03-28 18:08:42,288] {taskinstance.py:1097} INFO - 
+--------------------------------------------------------------------------------
+[2023-03-28 18:08:42,346] {taskinstance.py:1115} INFO - Executing <Task(PythonOperator): etl_from_radb_to_mrrdimcproducts> on 2023-03-28T18:08:39.265702+00:00
+[2023-03-28 18:08:42,388] {standard_task_runner.py:52} INFO - Started process 7789 to run task
+[2023-03-28 18:08:42,436] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'postgres_etl_dag_radb_to_mmr', 'etl_from_radb_to_mrrdimcproducts', '2023-03-28T18:08:39.265702+00:00', '--job-id', '33', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/inovus_etl_radb_mrr_stg_dwh.py', '--cfg-path', '/tmp/tmp0fbqjhw6', '--error-file', '/tmp/tmpotkhemsr']
+[2023-03-28 18:08:42,446] {standard_task_runner.py:77} INFO - Job 33: Subtask etl_from_radb_to_mrrdimcproducts
+[2023-03-28 18:08:42,620] {logging_mixin.py:109} INFO - Running <TaskInstance: postgres_etl_dag_radb_to_mmr.etl_from_radb_to_mrrdimcproducts 2023-03-28T18:08:39.265702+00:00 [running]> on host 0bc3da97cebb
+[2023-03-28 18:08:42,737] {taskinstance.py:1254} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=postgres_etl_dag_radb_to_mmr
+AIRFLOW_CTX_TASK_ID=etl_from_radb_to_mrrdimcproducts
+AIRFLOW_CTX_EXECUTION_DATE=2023-03-28T18:08:39.265702+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-03-28T18:08:39.265702+00:00
+[2023-03-28 18:08:43,063] {python.py:151} INFO - Done. Returned value was: None
+[2023-03-28 18:08:43,099] {taskinstance.py:1219} INFO - Marking task as SUCCESS. dag_id=postgres_etl_dag_radb_to_mmr, task_id=etl_from_radb_to_mrrdimcproducts, execution_date=20230328T180839, start_date=20230328T180842, end_date=20230328T180843
+[2023-03-28 18:08:43,214] {local_task_job.py:151} INFO - Task exited with return code 0
+[2023-03-28 18:08:43,268] {local_task_job.py:261} INFO - 0 downstream tasks scheduled from follow-on schedule check

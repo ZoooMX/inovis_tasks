@@ -1,0 +1,37 @@
+[2023-03-29 16:17:42,088] {taskinstance.py:903} INFO - Dependencies all met for <TaskInstance: postgres_22222222222.log_suc 2023-03-29T16:17:34.561041+00:00 [queued]>
+[2023-03-29 16:17:42,102] {taskinstance.py:903} INFO - Dependencies all met for <TaskInstance: postgres_22222222222.log_suc 2023-03-29T16:17:34.561041+00:00 [queued]>
+[2023-03-29 16:17:42,103] {taskinstance.py:1095} INFO - 
+--------------------------------------------------------------------------------
+[2023-03-29 16:17:42,104] {taskinstance.py:1096} INFO - Starting attempt 1 of 1
+[2023-03-29 16:17:42,105] {taskinstance.py:1097} INFO - 
+--------------------------------------------------------------------------------
+[2023-03-29 16:17:42,120] {taskinstance.py:1115} INFO - Executing <Task(PythonOperator): log_suc> on 2023-03-29T16:17:34.561041+00:00
+[2023-03-29 16:17:42,126] {standard_task_runner.py:52} INFO - Started process 26391 to run task
+[2023-03-29 16:17:42,133] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'postgres_22222222222', 'log_suc', '2023-03-29T16:17:34.561041+00:00', '--job-id', '313', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/ETL.py', '--cfg-path', '/tmp/tmpmjwuq1rv', '--error-file', '/tmp/tmp8uj5pcz2']
+[2023-03-29 16:17:42,135] {standard_task_runner.py:77} INFO - Job 313: Subtask log_suc
+[2023-03-29 16:17:42,187] {logging_mixin.py:109} INFO - Running <TaskInstance: postgres_22222222222.log_suc 2023-03-29T16:17:34.561041+00:00 [running]> on host 0bc3da97cebb
+[2023-03-29 16:17:42,243] {taskinstance.py:1254} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=postgres_22222222222
+AIRFLOW_CTX_TASK_ID=log_suc
+AIRFLOW_CTX_EXECUTION_DATE=2023-03-29T16:17:34.561041+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-03-29T16:17:34.561041+00:00
+[2023-03-29 16:17:42,245] {ETL.py:53} INFO - completed
+[2023-03-29 16:17:42,261] {taskinstance.py:1463} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1165, in _run_raw_task
+    self._prepare_and_execute_task_with_callbacks(context, task)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1283, in _prepare_and_execute_task_with_callbacks
+    result = self._execute_task(context, task_copy)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1313, in _execute_task
+    result = task_copy.execute(context=context)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 150, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 161, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/ETL.py", line 60, in creatte_log_suc
+    cur.executemany('insert into logs.etl_logs (event_time, event_name, event_type) values (%s, %s, %s)', ("val"))
+IndexError: string index out of range
+[2023-03-29 16:17:42,266] {taskinstance.py:1513} INFO - Marking task as FAILED. dag_id=postgres_22222222222, task_id=log_suc, execution_date=20230329T161734, start_date=20230329T161742, end_date=20230329T161742
+[2023-03-29 16:17:42,309] {local_task_job.py:151} INFO - Task exited with return code 1
+[2023-03-29 16:17:42,338] {local_task_job.py:261} INFO - 0 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,22 @@
+[2023-03-28 18:24:46,245] {taskinstance.py:903} INFO - Dependencies all met for <TaskInstance: inovus_etl_dag_mrr_to_stg.etl_from_mrrdimcustomer_to_stgdimcustomer 2023-03-28T18:24:44.317061+00:00 [queued]>
+[2023-03-28 18:24:46,283] {taskinstance.py:903} INFO - Dependencies all met for <TaskInstance: inovus_etl_dag_mrr_to_stg.etl_from_mrrdimcustomer_to_stgdimcustomer 2023-03-28T18:24:44.317061+00:00 [queued]>
+[2023-03-28 18:24:46,284] {taskinstance.py:1095} INFO - 
+--------------------------------------------------------------------------------
+[2023-03-28 18:24:46,286] {taskinstance.py:1096} INFO - Starting attempt 1 of 1
+[2023-03-28 18:24:46,288] {taskinstance.py:1097} INFO - 
+--------------------------------------------------------------------------------
+[2023-03-28 18:24:46,315] {taskinstance.py:1115} INFO - Executing <Task(PythonOperator): etl_from_mrrdimcustomer_to_stgdimcustomer> on 2023-03-28T18:24:44.317061+00:00
+[2023-03-28 18:24:46,327] {standard_task_runner.py:52} INFO - Started process 8572 to run task
+[2023-03-28 18:24:46,347] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'inovus_etl_dag_mrr_to_stg', 'etl_from_mrrdimcustomer_to_stgdimcustomer', '2023-03-28T18:24:44.317061+00:00', '--job-id', '49', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/inovus_etl_mrr_stg.py', '--cfg-path', '/tmp/tmpfw0rxzjf', '--error-file', '/tmp/tmp7yc0p9fx']
+[2023-03-28 18:24:46,350] {standard_task_runner.py:77} INFO - Job 49: Subtask etl_from_mrrdimcustomer_to_stgdimcustomer
+[2023-03-28 18:24:46,458] {logging_mixin.py:109} INFO - Running <TaskInstance: inovus_etl_dag_mrr_to_stg.etl_from_mrrdimcustomer_to_stgdimcustomer 2023-03-28T18:24:44.317061+00:00 [running]> on host 0bc3da97cebb
+[2023-03-28 18:24:46,578] {taskinstance.py:1254} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=inovus_etl_dag_mrr_to_stg
+AIRFLOW_CTX_TASK_ID=etl_from_mrrdimcustomer_to_stgdimcustomer
+AIRFLOW_CTX_EXECUTION_DATE=2023-03-28T18:24:44.317061+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-03-28T18:24:44.317061+00:00
+[2023-03-28 18:24:46,679] {python.py:151} INFO - Done. Returned value was: None
+[2023-03-28 18:24:46,699] {taskinstance.py:1219} INFO - Marking task as SUCCESS. dag_id=inovus_etl_dag_mrr_to_stg, task_id=etl_from_mrrdimcustomer_to_stgdimcustomer, execution_date=20230328T182444, start_date=20230328T182446, end_date=20230328T182446
+[2023-03-28 18:24:46,783] {local_task_job.py:151} INFO - Task exited with return code 0
+[2023-03-28 18:24:46,817] {local_task_job.py:261} INFO - 0 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,23 @@
+[2023-03-29 16:36:11,530] {taskinstance.py:903} INFO - Dependencies all met for <TaskInstance: postgres_22222222222.log_suc 2023-03-29T16:36:03.811821+00:00 [queued]>
+[2023-03-29 16:36:11,548] {taskinstance.py:903} INFO - Dependencies all met for <TaskInstance: postgres_22222222222.log_suc 2023-03-29T16:36:03.811821+00:00 [queued]>
+[2023-03-29 16:36:11,549] {taskinstance.py:1095} INFO - 
+--------------------------------------------------------------------------------
+[2023-03-29 16:36:11,551] {taskinstance.py:1096} INFO - Starting attempt 1 of 1
+[2023-03-29 16:36:11,552] {taskinstance.py:1097} INFO - 
+--------------------------------------------------------------------------------
+[2023-03-29 16:36:11,571] {taskinstance.py:1115} INFO - Executing <Task(PythonOperator): log_suc> on 2023-03-29T16:36:03.811821+00:00
+[2023-03-29 16:36:11,578] {standard_task_runner.py:52} INFO - Started process 27394 to run task
+[2023-03-29 16:36:11,591] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'postgres_22222222222', 'log_suc', '2023-03-29T16:36:03.811821+00:00', '--job-id', '385', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/ETL.py', '--cfg-path', '/tmp/tmp2av0n3lo', '--error-file', '/tmp/tmp70_bcane']
+[2023-03-29 16:36:11,597] {standard_task_runner.py:77} INFO - Job 385: Subtask log_suc
+[2023-03-29 16:36:11,651] {logging_mixin.py:109} INFO - Running <TaskInstance: postgres_22222222222.log_suc 2023-03-29T16:36:03.811821+00:00 [running]> on host 0bc3da97cebb
+[2023-03-29 16:36:11,724] {taskinstance.py:1254} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=postgres_22222222222
+AIRFLOW_CTX_TASK_ID=log_suc
+AIRFLOW_CTX_EXECUTION_DATE=2023-03-29T16:36:03.811821+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-03-29T16:36:03.811821+00:00
+[2023-03-29 16:36:11,727] {ETL.py:53} INFO - completed
+[2023-03-29 16:36:11,832] {python.py:151} INFO - Done. Returned value was: None
+[2023-03-29 16:36:11,872] {taskinstance.py:1219} INFO - Marking task as SUCCESS. dag_id=postgres_22222222222, task_id=log_suc, execution_date=20230329T163603, start_date=20230329T163611, end_date=20230329T163611
+[2023-03-29 16:36:11,948] {local_task_job.py:151} INFO - Task exited with return code 0
+[2023-03-29 16:36:11,983] {local_task_job.py:261} INFO - 0 downstream tasks scheduled from follow-on schedule check

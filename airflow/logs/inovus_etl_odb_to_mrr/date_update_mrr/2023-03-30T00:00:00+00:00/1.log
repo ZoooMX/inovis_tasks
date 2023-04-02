@@ -1,0 +1,22 @@
+[2023-03-31 00:09:27,812] {taskinstance.py:903} INFO - Dependencies all met for <TaskInstance: inovus_etl_odb_to_mrr.date_update_mrr 2023-03-30T00:00:00+00:00 [queued]>
+[2023-03-31 00:09:27,851] {taskinstance.py:903} INFO - Dependencies all met for <TaskInstance: inovus_etl_odb_to_mrr.date_update_mrr 2023-03-30T00:00:00+00:00 [queued]>
+[2023-03-31 00:09:27,853] {taskinstance.py:1095} INFO - 
+--------------------------------------------------------------------------------
+[2023-03-31 00:09:27,855] {taskinstance.py:1096} INFO - Starting attempt 1 of 1
+[2023-03-31 00:09:27,856] {taskinstance.py:1097} INFO - 
+--------------------------------------------------------------------------------
+[2023-03-31 00:09:27,887] {taskinstance.py:1115} INFO - Executing <Task(PythonOperator): date_update_mrr> on 2023-03-30T00:00:00+00:00
+[2023-03-31 00:09:27,915] {standard_task_runner.py:52} INFO - Started process 1457 to run task
+[2023-03-31 00:09:27,966] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'inovus_etl_odb_to_mrr', 'date_update_mrr', '2023-03-30T00:00:00+00:00', '--job-id', '500', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/inovus_etl_odb_mrr.py', '--cfg-path', '/tmp/tmpk4n7f7vc', '--error-file', '/tmp/tmpuliwmhv2']
+[2023-03-31 00:09:27,968] {standard_task_runner.py:77} INFO - Job 500: Subtask date_update_mrr
+[2023-03-31 00:09:28,178] {logging_mixin.py:109} INFO - Running <TaskInstance: inovus_etl_odb_to_mrr.date_update_mrr 2023-03-30T00:00:00+00:00 [running]> on host 0bc3da97cebb
+[2023-03-31 00:09:28,318] {taskinstance.py:1254} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=inovus_etl_odb_to_mrr
+AIRFLOW_CTX_TASK_ID=date_update_mrr
+AIRFLOW_CTX_EXECUTION_DATE=2023-03-30T00:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-03-30T00:00:00+00:00
+[2023-03-31 00:09:28,384] {python.py:151} INFO - Done. Returned value was: None
+[2023-03-31 00:09:28,407] {taskinstance.py:1219} INFO - Marking task as SUCCESS. dag_id=inovus_etl_odb_to_mrr, task_id=date_update_mrr, execution_date=20230330T000000, start_date=20230331T000927, end_date=20230331T000928
+[2023-03-31 00:09:28,471] {local_task_job.py:151} INFO - Task exited with return code 0
+[2023-03-31 00:09:28,510] {local_task_job.py:261} INFO - 0 downstream tasks scheduled from follow-on schedule check

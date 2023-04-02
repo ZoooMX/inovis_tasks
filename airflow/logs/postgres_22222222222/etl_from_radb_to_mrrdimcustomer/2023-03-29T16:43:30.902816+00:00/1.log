@@ -1,0 +1,22 @@
+[2023-03-29 16:43:33,619] {taskinstance.py:903} INFO - Dependencies all met for <TaskInstance: postgres_22222222222.etl_from_radb_to_mrrdimcustomer 2023-03-29T16:43:30.902816+00:00 [queued]>
+[2023-03-29 16:43:33,642] {taskinstance.py:903} INFO - Dependencies all met for <TaskInstance: postgres_22222222222.etl_from_radb_to_mrrdimcustomer 2023-03-29T16:43:30.902816+00:00 [queued]>
+[2023-03-29 16:43:33,644] {taskinstance.py:1095} INFO - 
+--------------------------------------------------------------------------------
+[2023-03-29 16:43:33,645] {taskinstance.py:1096} INFO - Starting attempt 1 of 1
+[2023-03-29 16:43:33,647] {taskinstance.py:1097} INFO - 
+--------------------------------------------------------------------------------
+[2023-03-29 16:43:33,666] {taskinstance.py:1115} INFO - Executing <Task(PythonOperator): etl_from_radb_to_mrrdimcustomer> on 2023-03-29T16:43:30.902816+00:00
+[2023-03-29 16:43:33,676] {standard_task_runner.py:52} INFO - Started process 27802 to run task
+[2023-03-29 16:43:33,694] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'postgres_22222222222', 'etl_from_radb_to_mrrdimcustomer', '2023-03-29T16:43:30.902816+00:00', '--job-id', '424', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/ETL.py', '--cfg-path', '/tmp/tmpu0ynacbk', '--error-file', '/tmp/tmp5nccohqr']
+[2023-03-29 16:43:33,695] {standard_task_runner.py:77} INFO - Job 424: Subtask etl_from_radb_to_mrrdimcustomer
+[2023-03-29 16:43:33,753] {logging_mixin.py:109} INFO - Running <TaskInstance: postgres_22222222222.etl_from_radb_to_mrrdimcustomer 2023-03-29T16:43:30.902816+00:00 [running]> on host 0bc3da97cebb
+[2023-03-29 16:43:33,812] {taskinstance.py:1254} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=postgres_22222222222
+AIRFLOW_CTX_TASK_ID=etl_from_radb_to_mrrdimcustomer
+AIRFLOW_CTX_EXECUTION_DATE=2023-03-29T16:43:30.902816+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-03-29T16:43:30.902816+00:00
+[2023-03-29 16:43:33,872] {python.py:151} INFO - Done. Returned value was: None
+[2023-03-29 16:43:33,897] {taskinstance.py:1219} INFO - Marking task as SUCCESS. dag_id=postgres_22222222222, task_id=etl_from_radb_to_mrrdimcustomer, execution_date=20230329T164330, start_date=20230329T164333, end_date=20230329T164333
+[2023-03-29 16:43:33,993] {local_task_job.py:151} INFO - Task exited with return code 0
+[2023-03-29 16:43:34,093] {local_task_job.py:261} INFO - 1 downstream tasks scheduled from follow-on schedule check

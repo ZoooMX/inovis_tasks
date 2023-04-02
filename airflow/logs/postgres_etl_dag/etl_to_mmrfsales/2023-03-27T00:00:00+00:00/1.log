@@ -1,0 +1,37 @@
+[2023-03-28 13:49:56,282] {taskinstance.py:903} INFO - Dependencies all met for <TaskInstance: postgres_etl_dag.etl_to_mmrfsales 2023-03-27T00:00:00+00:00 [queued]>
+[2023-03-28 13:49:56,412] {taskinstance.py:903} INFO - Dependencies all met for <TaskInstance: postgres_etl_dag.etl_to_mmrfsales 2023-03-27T00:00:00+00:00 [queued]>
+[2023-03-28 13:49:56,416] {taskinstance.py:1095} INFO - 
+--------------------------------------------------------------------------------
+[2023-03-28 13:49:56,419] {taskinstance.py:1096} INFO - Starting attempt 1 of 1
+[2023-03-28 13:49:56,420] {taskinstance.py:1097} INFO - 
+--------------------------------------------------------------------------------
+[2023-03-28 13:49:56,557] {taskinstance.py:1115} INFO - Executing <Task(PythonOperator): etl_to_mmrfsales> on 2023-03-27T00:00:00+00:00
+[2023-03-28 13:49:56,647] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'postgres_etl_dag', 'etl_to_mmrfsales', '2023-03-27T00:00:00+00:00', '--job-id', '13', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/ETL.py', '--cfg-path', '/tmp/tmphc36acc3', '--error-file', '/tmp/tmpabl35nb8']
+[2023-03-28 13:49:56,604] {standard_task_runner.py:52} INFO - Started process 2856 to run task
+[2023-03-28 13:49:56,666] {standard_task_runner.py:77} INFO - Job 13: Subtask etl_to_mmrfsales
+[2023-03-28 13:49:57,047] {logging_mixin.py:109} INFO - Running <TaskInstance: postgres_etl_dag.etl_to_mmrfsales 2023-03-27T00:00:00+00:00 [running]> on host 0bc3da97cebb
+[2023-03-28 13:49:57,835] {taskinstance.py:1254} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=postgres_etl_dag
+AIRFLOW_CTX_TASK_ID=etl_to_mmrfsales
+AIRFLOW_CTX_EXECUTION_DATE=2023-03-27T00:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-03-27T00:00:00+00:00
+[2023-03-28 13:49:58,222] {taskinstance.py:1463} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1165, in _run_raw_task
+    self._prepare_and_execute_task_with_callbacks(context, task)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1283, in _prepare_and_execute_task_with_callbacks
+    result = self._execute_task(context, task_copy)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1313, in _execute_task
+    result = task_copy.execute(context=context)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 150, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 161, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/ETL.py", line 45, in etl_inovus
+    cur_i.executemany('insert into mrr.fact_sales values (%s, %s, %s)', rows)
+NameError: name 'rows' is not defined
+[2023-03-28 13:50:00,730] {taskinstance.py:1513} INFO - Marking task as FAILED. dag_id=postgres_etl_dag, task_id=etl_to_mmrfsales, execution_date=20230327T000000, start_date=20230328T134956, end_date=20230328T135000
+[2023-03-28 13:50:04,758] {local_task_job.py:209} WARNING - State of this instance has been externally set to failed. Terminating instance.
+[2023-03-28 13:50:05,017] {process_utils.py:100} INFO - Sending Signals.SIGTERM to GPID 2856
+[2023-03-28 13:50:05,298] {process_utils.py:66} INFO - Process psutil.Process(pid=2856, status='terminated', exitcode=1, started='13:49:56') (2856) terminated with exit code 1
