@@ -62,3 +62,35 @@ mrr, stg, dwh - нужно почитать и понять почему мы с
 - fact - фактичкские данные(количество товаров, цена и т.д.) имеющие прямую связь с таблицами измерений для дальнейшего анализа данных. 
 Пример указан на картинке ниже
 <img width="440" alt="image" src="https://user-images.githubusercontent.com/99000578/229367611-2d08dd66-bc7c-4825-a769-14bd82bb5c00.png">
+
+#### Задача_4.
+Создать ETL(airflow, nifi, spark, SSIS либо любой другой ETL) с переходами данными из оперативной базы в mrr -> stg -> dwh 
+Из оперативной базы данных в mrr брать данные с помощью high water mark(дельта).Для этого создать таблицу high_water_mark в который будет последний день или апдейт каждой таблицы. В mrr вытягиваем в параметр время в соответствии с таблицей источникам и в dwh обновляем high_water_mark последним значением которое есть в таблице.
+##### Процесс выполнения 
+Выбран инструмент для реализации ETL - Apache Airflow. Запуск осуществлялся через Docker, параметры запуска [Docker-compose.yaml](https://github.com/ZoooMX/inovus_tasks/blob/main/airflow/docker-compose.yaml).     
+- первый Python скрипт [ETL ODB -> MRR -> high_water_mark](https://github.com/ZoooMX/inovus_tasks/blob/main/airflow/dags/inovus_etl_odb_mrr.py)
+- второй Python скрипт [ETL MRR -> STG](https://github.com/ZoooMX/inovus_tasks/blob/main/airflow/dags/inovus_etl_mrr_stg.py)
+- третий Python скрипт [ETL STG -> DWH -> high_water_mark](https://github.com/ZoooMX/inovus_tasks/blob/main/airflow/dags/inovus_etl_stg_dwh.py)
+Скрин Airflow <img width="918" alt="image" src="https://user-images.githubusercontent.com/99000578/229368243-df4563c6-fff7-4577-8422-cfe040bc019c.png">
+**ETL ODB -> MRR -> high_water_mark** ![image](https://user-images.githubusercontent.com/99000578/229368631-08617d27-d522-48b5-b51d-ab9367fd2b1e.png)
+**ETL MRR -> STG** ![image](https://user-images.githubusercontent.com/99000578/229368659-12ad80b9-e19d-4482-a7ae-9449caf657fe.png)
+**ETL STG -> DWH -> high_water_mark** ![image](https://user-images.githubusercontent.com/99000578/229369392-ada38374-011a-4072-a17d-37da24da7072.png)
+hwm <img width="340" alt="image" src="https://user-images.githubusercontent.com/99000578/229369435-0f07dc40-4ce0-417b-a78f-385b92bb2883.png">
+
+
+#### Задача_5.
+В каждом пакете/даге/процессе сделать систему логов которые будут писаться в созданную для этого таблицу, время исполнения пакета + если есть ошибка(это делаеться в event handler).
+##### Процесс выполнения 
+
+#### Задача_6.
+Создать процедуру и использовать там cursor, try и catch(при ошибки будет писаться лог в созданную для этого таблицу), сделать какую нибудь функцию.
+Все процедуры и функции сохранить в базе данных dwh.
+##### Процесс выполнения 
+
+#### Задача_7.
+Сделать простой дашборд и модель данных на ваше усмотрение в Power BI из данных в dwh.
+##### Процесс выполнения 
+
+#### Задача_8.
+Создать скрипт который будет делать backup для трех баз данных(mrr, stg, dwh).
+##### Процесс выполнения 
