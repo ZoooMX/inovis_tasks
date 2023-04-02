@@ -72,10 +72,10 @@ mrr, stg, dwh - нужно почитать и понять почему мы с
 - второй Python скрипт [ETL MRR -> STG](https://github.com/ZoooMX/inovus_tasks/blob/main/airflow/dags/inovus_etl_mrr_stg.py)
 - третий Python скрипт [ETL STG -> DWH -> high_water_mark](https://github.com/ZoooMX/inovus_tasks/blob/main/airflow/dags/inovus_etl_stg_dwh.py)
 Скрин Airflow <img width="918" alt="image" src="https://user-images.githubusercontent.com/99000578/229368243-df4563c6-fff7-4577-8422-cfe040bc019c.png">
-**ETL ODB -> MRR -> high_water_mark** ![image](https://user-images.githubusercontent.com/99000578/229368631-08617d27-d522-48b5-b51d-ab9367fd2b1e.png)
-**ETL MRR -> STG** ![image](https://user-images.githubusercontent.com/99000578/229368659-12ad80b9-e19d-4482-a7ae-9449caf657fe.png)
-**ETL STG -> DWH -> high_water_mark** ![image](https://user-images.githubusercontent.com/99000578/229369392-ada38374-011a-4072-a17d-37da24da7072.png)
-hwm <img width="340" alt="image" src="https://user-images.githubusercontent.com/99000578/229369435-0f07dc40-4ce0-417b-a78f-385b92bb2883.png">
+- **ETL ODB -> MRR -> high_water_mark** ![image](https://user-images.githubusercontent.com/99000578/229368631-08617d27-d522-48b5-b51d-ab9367fd2b1e.png)
+- **ETL MRR -> STG** ![image](https://user-images.githubusercontent.com/99000578/229368659-12ad80b9-e19d-4482-a7ae-9449caf657fe.png)
+- **ETL STG -> DWH -> high_water_mark** ![image](https://user-images.githubusercontent.com/99000578/229369392-ada38374-011a-4072-a17d-37da24da7072.png)
+- **Запись в high_water_mark** <img width="340" alt="image" src="https://user-images.githubusercontent.com/99000578/229369435-0f07dc40-4ce0-417b-a78f-385b92bb2883.png">
 
 
 #### Задача_5.
