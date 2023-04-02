@@ -1,5 +1,5 @@
-# inovus_tasks
-## Отчет по выполнению тестового задания Inovas
+# Inovis_tasks
+## Отчет по выполнению тестового задания Inovis
 
 ### Перечень задач:
 1. Создать оперативную базу данных в любом из видов баз данных(не важно реляционной или нет)  3 таблицы:
@@ -35,7 +35,7 @@ mrr, stg, dwh - нужно почитать и понять почему мы с
 
 ##### Процесс выполнения 
 БД разворачивал в Docker 
-**Скрипт DLL и DML комманд -> [inovus_ODB.sql](https://github.com/ZoooMX/inovus_tasks/blob/main/SQL/inovus_ODB.sql)**
+**Скрипт DLL и DML комманд -> [inovis_ODB.sql](https://github.com/ZoooMX/inovus_tasks/blob/main/SQL/inovus_ODB.sql)**
 
 Было принято решение использовать для оперативной базы данных PostgreSQL. Данная БД использвуется очень широко на рынке, часто ее используют на бэкенде(пообщался с знакомими програмистами) Основные отличия приведены в таблице ниже.
 ![image](https://user-images.githubusercontent.com/99000578/229366000-0508f3ae-fe2f-475b-8231-3d4a40196371.png)
@@ -48,7 +48,7 @@ mrr, stg, dwh - нужно почитать и понять почему мы с
 
 ##### Процесс выполнения 
 БД разворачивал в Docker. В DLL коммандах для DWH построены связи для дальнейшей работы в BI. 
-**Скрипт DLL комманд -> [inovus_MRR_STG_DWH.sql](https://github.com/ZoooMX/inovus_tasks/blob/main/SQL/inovus_MRR_STG_DWH.sql)**
+**Скрипт DLL комманд -> [inovis_MRR_STG_DWH.sql](https://github.com/ZoooMX/inovus_tasks/blob/main/SQL/inovus_MRR_STG_DWH.sql)**
 - mrr - Monthly Recurring Revenue - ежемесячныя выгрузка данных в данную БД для дальнейшей работы с показателмя за прошедший месяц. 
 > Думаю сюда выгружаются все данные из всех доступных источниов
 1. stg - Staging - БД для отладки данных, куда можно сгрузить даже поврежденные данные, так же в ней осуществляется обработка данных(преобразование)
@@ -60,7 +60,7 @@ mrr, stg, dwh - нужно почитать и понять почему мы с
 Во все таблицы с мерами мы добавляем приставку fact в имени, c измерениями  dimension + приставка имени базы данных. Пример: если таблица в базе данных mrr то таблица с продажами будет mrr_fact_sales, если таблица с продуктами в stg то stg_dim_products. В именах только английский, и все имена одного формата(камел кейс или снейк кейс).Почитать что такое fact и dimension
 
 ##### Процесс выполнения 
-**Скрипт DLL комманд -> [inovus_MRR_STG_DWH.sql](https://github.com/ZoooMX/inovus_tasks/blob/main/SQL/inovus_MRR_STG_DWH.sql)**
+**Скрипт DLL комманд -> [inovis_MRR_STG_DWH.sql](https://github.com/ZoooMX/inovus_tasks/blob/main/SQL/inovus_MRR_STG_DWH.sql)**
 - dimension - таблицы с измерениями, которые содержат описание о значениях в таблице фактов.  
 - fact - фактичкские данные(количество товаров, цена и т.д.) имеющие прямую связь с таблицами измерений для дальнейшего анализа данных. 
 Пример указан на картинке ниже
@@ -95,8 +95,8 @@ mrr, stg, dwh - нужно почитать и понять почему мы с
 Все процедуры и функции сохранить в базе данных dwh.
 ##### Процесс выполнения 
 Реализовал 2 процедуры, которые принимают 2 параметра для поиска дубликатов в stg БД в dimension таблицах. Реализовал 2 функцкии, которые при вызове удаляют дубликаты иставляя одну уникальную запись. Логирование без парсинга CSV файла с встроенными логами Postgres не реализовал, необходимо лучше погрузиться в данный вопрос.  
-- процедуры [inovus_PROC_find_double_stg.sql](https://github.com/ZoooMX/inovus_tasks/blob/main/SQL/inovus_PROC_find_double_stg.sql)
-- функции [inovus_FUNC_del_copy_stg.sql](https://github.com/ZoooMX/inovus_tasks/blob/main/SQL/inovus_FUNC_del_copy_stg.sql)
+- процедуры [inovis_PROC_find_double_stg.sql](https://github.com/ZoooMX/inovus_tasks/blob/main/SQL/inovus_PROC_find_double_stg.sql)
+- функции [inovis_FUNC_del_copy_stg.sql](https://github.com/ZoooMX/inovus_tasks/blob/main/SQL/inovus_FUNC_del_copy_stg.sql)
 
 ### Задача_7.
 Сделать простой дашборд и модель данных на ваше усмотрение в Power BI из данных в dwh.
@@ -114,6 +114,6 @@ mrr, stg, dwh - нужно почитать и понять почему мы с
 <img width="735" alt="Pasted Graphic 1" src="https://user-images.githubusercontent.com/99000578/229371276-2d27f422-7e3e-434b-9930-30491531e88f.png">
 
 2. Создание дамп-файла
-> pg_dump -U inovus inovus > inovus_backup.dump
+> pg_dump -U inovus inovus > inovis_backup.dump
 
  <img width="705" alt="Pasted Graphic" src="https://user-images.githubusercontent.com/99000578/229371307-60953023-092f-43bf-9029-191824b28a6d.png">
