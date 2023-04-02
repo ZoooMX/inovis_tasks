@@ -105,8 +105,7 @@ mrr, stg, dwh - нужно почитать и понять почему мы с
 - Скрин подключения к Tableau <img width="1171" alt="image" src="https://user-images.githubusercontent.com/99000578/229371016-1e42c209-d061-441b-864c-e0fe8a8657fc.png">
 - Собраны 3 рабочие таблицы(для примера скрин таблицы с клиентами) <img width="1169" alt="image" src="https://user-images.githubusercontent.com/99000578/229371045-890a7918-ef4d-4241-8ec0-92cf653f30be.png">
 - Дашборд с тремя таблицами (Клиенты, локиция, статус покупок по товарам)<img width="1170" alt="image" src="https://user-images.githubusercontent.com/99000578/229371120-c7a985cd-2ee0-41e6-ab67-c7d6291c6109.png">
-- Ссылка на выгруженный файл со слайдами 
-- 
+- Ссылка на выгруженный файл со слайдами [Tableau - BI.png](https://github.com/ZoooMX/inovus_tasks/blob/main/Tableau%20-%20BI.png)
 #### Задача_8.
 Создать скрипт который будет делать backup для трех баз данных(mrr, stg, dwh).
 ##### Процесс выполнения 
