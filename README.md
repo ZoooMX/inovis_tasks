@@ -51,9 +51,10 @@ mrr, stg, dwh - нужно почитать и понять почему мы с
 **Скрипт DLL комманд -> [inovus_MRR_STG_DWH.sql](https://github.com/ZoooMX/inovus_tasks/blob/main/SQL/inovus_MRR_STG_DWH.sql)**
 - mrr - Monthly Recurring Revenue - ежемесячныя выгрузка данных в данную БД для дальнейшей работы с показателмя за прошедший месяц. 
 > Думаю сюда выгружаются все данные из всех доступных источниов
-- stg - Staging - БД для отладки данных, куда можно сгрузить даже поврежденные данные, так же в ней осуществляется обработка данных(преобразование)
-- dwh - Data Warehouse - БД с переработанными данными, готовыми для подготовки бизнес-анализа и отчетов для дальнейшего принятия решений бизнесом.
-**Скрин dwh со связями**<img width="355" alt="image" src="https://user-images.githubusercontent.com/99000578/229370961-a2fe4005-1c0c-4867-a2cb-9b91914a5bdb.png">
+1. stg - Staging - БД для отладки данных, куда можно сгрузить даже поврежденные данные, так же в ней осуществляется обработка данных(преобразование)
+2. dwh - Data Warehouse - БД с переработанными данными, готовыми для подготовки бизнес-анализа и отчетов для дальнейшего принятия решений бизнесом.
+- **Скрин dwh со связями**
+<img width="355" alt="image" src="https://user-images.githubusercontent.com/99000578/229370961-a2fe4005-1c0c-4867-a2cb-9b91914a5bdb.png">
 
 ### Задача_3.
 Во все таблицы с мерами мы добавляем приставку fact в имени, c измерениями  dimension + приставка имени базы данных. Пример: если таблица в базе данных mrr то таблица с продажами будет mrr_fact_sales, если таблица с продуктами в stg то stg_dim_products. В именах только английский, и все имена одного формата(камел кейс или снейк кейс).Почитать что такое fact и dimension
@@ -110,8 +111,8 @@ mrr, stg, dwh - нужно почитать и понять почему мы с
 Создать скрипт который будет делать backup для трех баз данных(mrr, stg, dwh).
 ##### Процесс выполнения 
 1. Вход в bash Docker 
-`docker exec -it 157ff9c2ce130a4f8042365ce73bd5fc2c105e4aeb8243fd62eacd8356b3ad89 /bin/bash`
+ `docker exec -it 157ff9c2ce130a4f8042365ce73bd5fc2c105e4aeb8243fd62eacd8356b3ad89 /bin/bash`
 <img width="735" alt="Pasted Graphic 1" src="https://user-images.githubusercontent.com/99000578/229371276-2d27f422-7e3e-434b-9930-30491531e88f.png">
 2. Создание дамп-файла
-`pg_dump -U inovus inovus > inovus_backup.dump`
-<img width="705" alt="Pasted Graphic" src="https://user-images.githubusercontent.com/99000578/229371307-60953023-092f-43bf-9029-191824b28a6d.png">
+ `pg_dump -U inovus inovus > inovus_backup.dump`
+ <img width="705" alt="Pasted Graphic" src="https://user-images.githubusercontent.com/99000578/229371307-60953023-092f-43bf-9029-191824b28a6d.png">
