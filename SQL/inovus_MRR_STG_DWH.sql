@@ -78,8 +78,8 @@ create table if not exists dwh.dimension_products (
 
 drop table if exists dwh.fact_sales;
 create table if not exists dwh.fact_sales (
-	customer_id bigint not null,
-	product_id bigint not null,
+	customer_id bigint,
+	product_id bigint,
 	qty varchar(255),
 	constraint FK_1 foreign key (customer_id) references dwh.dimension_customer (id),
 	constraint FK_2 foreign key (product_id) references dwh.dimension_products (id)
