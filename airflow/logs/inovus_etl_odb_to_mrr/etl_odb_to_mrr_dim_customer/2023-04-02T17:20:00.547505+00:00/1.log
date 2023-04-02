@@ -1,0 +1,22 @@
+[2023-04-02 17:20:04,014] {taskinstance.py:903} INFO - Dependencies all met for <TaskInstance: inovus_etl_odb_to_mrr.etl_odb_to_mrr_dim_customer 2023-04-02T17:20:00.547505+00:00 [queued]>
+[2023-04-02 17:20:04,032] {taskinstance.py:903} INFO - Dependencies all met for <TaskInstance: inovus_etl_odb_to_mrr.etl_odb_to_mrr_dim_customer 2023-04-02T17:20:00.547505+00:00 [queued]>
+[2023-04-02 17:20:04,033] {taskinstance.py:1095} INFO - 
+--------------------------------------------------------------------------------
+[2023-04-02 17:20:04,035] {taskinstance.py:1096} INFO - Starting attempt 1 of 1
+[2023-04-02 17:20:04,037] {taskinstance.py:1097} INFO - 
+--------------------------------------------------------------------------------
+[2023-04-02 17:20:04,054] {taskinstance.py:1115} INFO - Executing <Task(PythonOperator): etl_odb_to_mrr_dim_customer> on 2023-04-02T17:20:00.547505+00:00
+[2023-04-02 17:20:04,073] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'inovus_etl_odb_to_mrr', 'etl_odb_to_mrr_dim_customer', '2023-04-02T17:20:00.547505+00:00', '--job-id', '541', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/inovus_etl_odb_mrr.py', '--cfg-path', '/tmp/tmp_ukh6_e_', '--error-file', '/tmp/tmpgc8b_s6u']
+[2023-04-02 17:20:04,066] {standard_task_runner.py:52} INFO - Started process 548 to run task
+[2023-04-02 17:20:04,077] {standard_task_runner.py:77} INFO - Job 541: Subtask etl_odb_to_mrr_dim_customer
+[2023-04-02 17:20:04,175] {logging_mixin.py:109} INFO - Running <TaskInstance: inovus_etl_odb_to_mrr.etl_odb_to_mrr_dim_customer 2023-04-02T17:20:00.547505+00:00 [running]> on host 580553a30a83
+[2023-04-02 17:20:04,275] {taskinstance.py:1254} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=inovus_etl_odb_to_mrr
+AIRFLOW_CTX_TASK_ID=etl_odb_to_mrr_dim_customer
+AIRFLOW_CTX_EXECUTION_DATE=2023-04-02T17:20:00.547505+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-04-02T17:20:00.547505+00:00
+[2023-04-02 17:20:04,488] {python.py:151} INFO - Done. Returned value was: None
+[2023-04-02 17:20:04,561] {taskinstance.py:1219} INFO - Marking task as SUCCESS. dag_id=inovus_etl_odb_to_mrr, task_id=etl_odb_to_mrr_dim_customer, execution_date=20230402T172000, start_date=20230402T172004, end_date=20230402T172004
+[2023-04-02 17:20:04,689] {local_task_job.py:151} INFO - Task exited with return code 0
+[2023-04-02 17:20:04,772] {local_task_job.py:261} INFO - 1 downstream tasks scheduled from follow-on schedule check

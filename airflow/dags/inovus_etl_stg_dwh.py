@@ -1,4 +1,3 @@
-
 from airflow.utils.dates import days_ago
 from airflow.models import DAG
 from airflow.operators.python import PythonOperator
@@ -87,17 +86,6 @@ def update_high_water_mark():
     cur.execute("update dwh.high_water_mark SET date_update = now() WHERE name_db = 'dwh';")
     conn_inovus.commit()
     conn_inovus.close()
-
-# def full_start():
-#     try:
-#         task_customer()
-#         task_products()
-#         task_sales()
-#         task_high_water_mark()
-#         create_log_suc('DAG finished')
-#     except:
-#         create_log_er('DAG failed')
-#         raise Exception
     
 with DAG(
     dag_id='inovus_etl_dag_stg_to_dwh',

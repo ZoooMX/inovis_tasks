@@ -1,0 +1,784 @@
+[2023-04-02 17:09:13,485] {processor.py:162} INFO - Started process (PID=51) to work on /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:09:13,561] {processor.py:613} INFO - Processing file /opt/airflow/dags/inovus_etl_odb_mrr.py for tasks to queue
+[2023-04-02 17:09:13,600] {logging_mixin.py:109} INFO - [2023-04-02 17:09:13,599] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:09:14,521] {processor.py:623} INFO - DAG(s) dict_keys(['inovus_etl_odb_to_mrr']) retrieved from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:09:22,849] {logging_mixin.py:109} INFO - [2023-04-02 17:09:22,849] {dag.py:1834} INFO - Sync 1 DAGs
+[2023-04-02 17:09:22,973] {logging_mixin.py:109} INFO - [2023-04-02 17:09:22,973] {dag.py:2287} INFO - Setting next_dagrun for inovus_etl_odb_to_mrr to 2023-04-01 00:00:00+00:00
+[2023-04-02 17:09:23,065] {processor.py:170} INFO - Processing /opt/airflow/dags/inovus_etl_odb_mrr.py took 9.692 seconds
+[2023-04-02 17:11:01,157] {processor.py:162} INFO - Started process (PID=135) to work on /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:11:01,182] {processor.py:613} INFO - Processing file /opt/airflow/dags/inovus_etl_odb_mrr.py for tasks to queue
+[2023-04-02 17:11:01,199] {logging_mixin.py:109} INFO - [2023-04-02 17:11:01,199] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:11:01,603] {processor.py:623} INFO - DAG(s) dict_keys(['inovus_etl_odb_to_mrr']) retrieved from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:11:01,790] {logging_mixin.py:109} INFO - [2023-04-02 17:11:01,790] {dag.py:1834} INFO - Sync 1 DAGs
+[2023-04-02 17:11:01,989] {logging_mixin.py:109} INFO - [2023-04-02 17:11:01,989] {dag.py:2287} INFO - Setting next_dagrun for inovus_etl_odb_to_mrr to 2023-04-02 00:00:00+00:00
+[2023-04-02 17:11:02,154] {processor.py:170} INFO - Processing /opt/airflow/dags/inovus_etl_odb_mrr.py took 1.052 seconds
+[2023-04-02 17:11:32,375] {processor.py:162} INFO - Started process (PID=186) to work on /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:11:32,391] {processor.py:613} INFO - Processing file /opt/airflow/dags/inovus_etl_odb_mrr.py for tasks to queue
+[2023-04-02 17:11:32,395] {logging_mixin.py:109} INFO - [2023-04-02 17:11:32,395] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:11:32,481] {processor.py:623} INFO - DAG(s) dict_keys(['inovus_etl_odb_to_mrr']) retrieved from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:11:32,537] {logging_mixin.py:109} INFO - [2023-04-02 17:11:32,537] {dag.py:1834} INFO - Sync 1 DAGs
+[2023-04-02 17:11:32,589] {logging_mixin.py:109} INFO - [2023-04-02 17:11:32,589] {dag.py:2287} INFO - Setting next_dagrun for inovus_etl_odb_to_mrr to 2023-04-02 00:00:00+00:00
+[2023-04-02 17:11:32,625] {processor.py:170} INFO - Processing /opt/airflow/dags/inovus_etl_odb_mrr.py took 0.264 seconds
+[2023-04-02 17:12:03,557] {processor.py:162} INFO - Started process (PID=233) to work on /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:12:03,561] {processor.py:613} INFO - Processing file /opt/airflow/dags/inovus_etl_odb_mrr.py for tasks to queue
+[2023-04-02 17:12:03,572] {logging_mixin.py:109} INFO - [2023-04-02 17:12:03,568] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:12:03,623] {processor.py:623} INFO - DAG(s) dict_keys(['inovus_etl_odb_to_mrr']) retrieved from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:12:03,672] {logging_mixin.py:109} INFO - [2023-04-02 17:12:03,672] {dag.py:1834} INFO - Sync 1 DAGs
+[2023-04-02 17:12:03,704] {logging_mixin.py:109} INFO - [2023-04-02 17:12:03,704] {dag.py:2287} INFO - Setting next_dagrun for inovus_etl_odb_to_mrr to 2023-04-02 00:00:00+00:00
+[2023-04-02 17:12:03,717] {processor.py:170} INFO - Processing /opt/airflow/dags/inovus_etl_odb_mrr.py took 0.166 seconds
+[2023-04-02 17:12:35,699] {processor.py:162} INFO - Started process (PID=291) to work on /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:12:35,707] {processor.py:613} INFO - Processing file /opt/airflow/dags/inovus_etl_odb_mrr.py for tasks to queue
+[2023-04-02 17:12:35,712] {logging_mixin.py:109} INFO - [2023-04-02 17:12:35,712] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:12:35,764] {processor.py:623} INFO - DAG(s) dict_keys(['inovus_etl_odb_to_mrr']) retrieved from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:12:35,816] {logging_mixin.py:109} INFO - [2023-04-02 17:12:35,816] {dag.py:1834} INFO - Sync 1 DAGs
+[2023-04-02 17:12:35,912] {logging_mixin.py:109} INFO - [2023-04-02 17:12:35,912] {dag.py:2287} INFO - Setting next_dagrun for inovus_etl_odb_to_mrr to 2023-04-02 00:00:00+00:00
+[2023-04-02 17:12:35,953] {processor.py:170} INFO - Processing /opt/airflow/dags/inovus_etl_odb_mrr.py took 0.259 seconds
+[2023-04-02 17:13:06,442] {processor.py:162} INFO - Started process (PID=346) to work on /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:13:06,458] {processor.py:613} INFO - Processing file /opt/airflow/dags/inovus_etl_odb_mrr.py for tasks to queue
+[2023-04-02 17:13:06,461] {logging_mixin.py:109} INFO - [2023-04-02 17:13:06,460] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:13:06,542] {processor.py:623} INFO - DAG(s) dict_keys(['inovus_etl_odb_to_mrr']) retrieved from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:13:06,640] {logging_mixin.py:109} INFO - [2023-04-02 17:13:06,640] {dag.py:1834} INFO - Sync 1 DAGs
+[2023-04-02 17:13:06,713] {logging_mixin.py:109} INFO - [2023-04-02 17:13:06,713] {dag.py:2287} INFO - Setting next_dagrun for inovus_etl_odb_to_mrr to 2023-04-02 00:00:00+00:00
+[2023-04-02 17:13:06,756] {processor.py:170} INFO - Processing /opt/airflow/dags/inovus_etl_odb_mrr.py took 0.325 seconds
+[2023-04-02 17:13:37,103] {processor.py:162} INFO - Started process (PID=400) to work on /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:13:37,109] {processor.py:613} INFO - Processing file /opt/airflow/dags/inovus_etl_odb_mrr.py for tasks to queue
+[2023-04-02 17:13:37,139] {logging_mixin.py:109} INFO - [2023-04-02 17:13:37,138] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:13:37,223] {processor.py:623} INFO - DAG(s) dict_keys(['inovus_etl_odb_to_mrr']) retrieved from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:13:37,277] {logging_mixin.py:109} INFO - [2023-04-02 17:13:37,276] {dag.py:1834} INFO - Sync 1 DAGs
+[2023-04-02 17:13:37,349] {logging_mixin.py:109} INFO - [2023-04-02 17:13:37,348] {dag.py:2287} INFO - Setting next_dagrun for inovus_etl_odb_to_mrr to 2023-04-02 00:00:00+00:00
+[2023-04-02 17:13:37,374] {processor.py:170} INFO - Processing /opt/airflow/dags/inovus_etl_odb_mrr.py took 0.280 seconds
+[2023-04-02 17:14:07,530] {processor.py:162} INFO - Started process (PID=453) to work on /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:14:07,538] {processor.py:613} INFO - Processing file /opt/airflow/dags/inovus_etl_odb_mrr.py for tasks to queue
+[2023-04-02 17:14:07,540] {logging_mixin.py:109} INFO - [2023-04-02 17:14:07,540] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:14:07,566] {processor.py:623} INFO - DAG(s) dict_keys(['inovus_etl_odb_to_mrr']) retrieved from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:14:07,591] {logging_mixin.py:109} INFO - [2023-04-02 17:14:07,591] {dag.py:1834} INFO - Sync 1 DAGs
+[2023-04-02 17:14:07,608] {logging_mixin.py:109} INFO - [2023-04-02 17:14:07,608] {dag.py:2287} INFO - Setting next_dagrun for inovus_etl_odb_to_mrr to 2023-04-02 00:00:00+00:00
+[2023-04-02 17:14:07,625] {processor.py:170} INFO - Processing /opt/airflow/dags/inovus_etl_odb_mrr.py took 0.100 seconds
+[2023-04-02 17:14:37,781] {processor.py:162} INFO - Started process (PID=507) to work on /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:14:37,785] {processor.py:613} INFO - Processing file /opt/airflow/dags/inovus_etl_odb_mrr.py for tasks to queue
+[2023-04-02 17:14:37,789] {logging_mixin.py:109} INFO - [2023-04-02 17:14:37,789] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:14:37,822] {processor.py:623} INFO - DAG(s) dict_keys(['inovus_etl_odb_to_mrr']) retrieved from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:14:37,852] {logging_mixin.py:109} INFO - [2023-04-02 17:14:37,852] {dag.py:1834} INFO - Sync 1 DAGs
+[2023-04-02 17:14:37,872] {logging_mixin.py:109} INFO - [2023-04-02 17:14:37,872] {dag.py:2287} INFO - Setting next_dagrun for inovus_etl_odb_to_mrr to 2023-04-02 00:00:00+00:00
+[2023-04-02 17:14:37,893] {processor.py:170} INFO - Processing /opt/airflow/dags/inovus_etl_odb_mrr.py took 0.116 seconds
+[2023-04-02 17:15:08,983] {processor.py:162} INFO - Started process (PID=567) to work on /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:15:09,029] {processor.py:613} INFO - Processing file /opt/airflow/dags/inovus_etl_odb_mrr.py for tasks to queue
+[2023-04-02 17:15:09,041] {logging_mixin.py:109} INFO - [2023-04-02 17:15:09,040] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:15:09,208] {processor.py:623} INFO - DAG(s) dict_keys(['inovus_etl_odb_to_mrr']) retrieved from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:15:09,333] {logging_mixin.py:109} INFO - [2023-04-02 17:15:09,333] {dag.py:1834} INFO - Sync 1 DAGs
+[2023-04-02 17:15:09,440] {logging_mixin.py:109} INFO - [2023-04-02 17:15:09,440] {dag.py:2287} INFO - Setting next_dagrun for inovus_etl_odb_to_mrr to 2023-04-02 00:00:00+00:00
+[2023-04-02 17:15:09,486] {processor.py:170} INFO - Processing /opt/airflow/dags/inovus_etl_odb_mrr.py took 0.544 seconds
+[2023-04-02 17:15:40,075] {processor.py:162} INFO - Started process (PID=625) to work on /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:15:40,085] {processor.py:613} INFO - Processing file /opt/airflow/dags/inovus_etl_odb_mrr.py for tasks to queue
+[2023-04-02 17:15:40,091] {logging_mixin.py:109} INFO - [2023-04-02 17:15:40,091] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:15:40,136] {processor.py:623} INFO - DAG(s) dict_keys(['inovus_etl_odb_to_mrr']) retrieved from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:15:40,243] {logging_mixin.py:109} INFO - [2023-04-02 17:15:40,243] {dag.py:1834} INFO - Sync 1 DAGs
+[2023-04-02 17:15:40,270] {logging_mixin.py:109} INFO - [2023-04-02 17:15:40,270] {dag.py:2287} INFO - Setting next_dagrun for inovus_etl_odb_to_mrr to 2023-04-02 00:00:00+00:00
+[2023-04-02 17:15:40,289] {processor.py:170} INFO - Processing /opt/airflow/dags/inovus_etl_odb_mrr.py took 0.222 seconds
+[2023-04-02 17:16:10,466] {processor.py:162} INFO - Started process (PID=678) to work on /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:16:10,471] {processor.py:613} INFO - Processing file /opt/airflow/dags/inovus_etl_odb_mrr.py for tasks to queue
+[2023-04-02 17:16:10,475] {logging_mixin.py:109} INFO - [2023-04-02 17:16:10,475] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:16:10,570] {processor.py:623} INFO - DAG(s) dict_keys(['inovus_etl_odb_to_mrr']) retrieved from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:16:10,815] {logging_mixin.py:109} INFO - [2023-04-02 17:16:10,814] {dag.py:1834} INFO - Sync 1 DAGs
+[2023-04-02 17:16:11,195] {logging_mixin.py:109} INFO - [2023-04-02 17:16:11,195] {dag.py:2287} INFO - Setting next_dagrun for inovus_etl_odb_to_mrr to 2023-04-02 00:00:00+00:00
+[2023-04-02 17:16:11,297] {processor.py:170} INFO - Processing /opt/airflow/dags/inovus_etl_odb_mrr.py took 0.838 seconds
+[2023-04-02 17:16:41,762] {processor.py:162} INFO - Started process (PID=732) to work on /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:16:41,765] {processor.py:613} INFO - Processing file /opt/airflow/dags/inovus_etl_odb_mrr.py for tasks to queue
+[2023-04-02 17:16:41,767] {logging_mixin.py:109} INFO - [2023-04-02 17:16:41,767] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:16:41,793] {processor.py:623} INFO - DAG(s) dict_keys(['inovus_etl_odb_to_mrr']) retrieved from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:16:41,826] {logging_mixin.py:109} INFO - [2023-04-02 17:16:41,826] {dag.py:1834} INFO - Sync 1 DAGs
+[2023-04-02 17:16:41,847] {logging_mixin.py:109} INFO - [2023-04-02 17:16:41,847] {dag.py:2287} INFO - Setting next_dagrun for inovus_etl_odb_to_mrr to 2023-04-02 00:00:00+00:00
+[2023-04-02 17:16:41,864] {processor.py:170} INFO - Processing /opt/airflow/dags/inovus_etl_odb_mrr.py took 0.107 seconds
+[2023-04-02 17:17:12,555] {processor.py:162} INFO - Started process (PID=785) to work on /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:17:12,560] {processor.py:613} INFO - Processing file /opt/airflow/dags/inovus_etl_odb_mrr.py for tasks to queue
+[2023-04-02 17:17:12,564] {logging_mixin.py:109} INFO - [2023-04-02 17:17:12,563] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:17:12,606] {processor.py:623} INFO - DAG(s) dict_keys(['inovus_etl_odb_to_mrr']) retrieved from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:17:12,641] {logging_mixin.py:109} INFO - [2023-04-02 17:17:12,641] {dag.py:1834} INFO - Sync 1 DAGs
+[2023-04-02 17:17:12,675] {logging_mixin.py:109} INFO - [2023-04-02 17:17:12,675] {dag.py:2287} INFO - Setting next_dagrun for inovus_etl_odb_to_mrr to 2023-04-02 00:00:00+00:00
+[2023-04-02 17:17:12,696] {processor.py:170} INFO - Processing /opt/airflow/dags/inovus_etl_odb_mrr.py took 0.151 seconds
+[2023-04-02 17:17:43,353] {processor.py:162} INFO - Started process (PID=841) to work on /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:17:43,356] {processor.py:613} INFO - Processing file /opt/airflow/dags/inovus_etl_odb_mrr.py for tasks to queue
+[2023-04-02 17:17:43,359] {logging_mixin.py:109} INFO - [2023-04-02 17:17:43,358] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:17:43,394] {processor.py:623} INFO - DAG(s) dict_keys(['inovus_etl_odb_to_mrr']) retrieved from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:17:43,427] {logging_mixin.py:109} INFO - [2023-04-02 17:17:43,427] {dag.py:1834} INFO - Sync 1 DAGs
+[2023-04-02 17:17:43,449] {logging_mixin.py:109} INFO - [2023-04-02 17:17:43,448] {dag.py:2287} INFO - Setting next_dagrun for inovus_etl_odb_to_mrr to 2023-04-02 00:00:00+00:00
+[2023-04-02 17:17:43,461] {processor.py:170} INFO - Processing /opt/airflow/dags/inovus_etl_odb_mrr.py took 0.114 seconds
+[2023-04-02 17:18:13,574] {processor.py:162} INFO - Started process (PID=894) to work on /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:18:13,598] {processor.py:613} INFO - Processing file /opt/airflow/dags/inovus_etl_odb_mrr.py for tasks to queue
+[2023-04-02 17:18:13,603] {logging_mixin.py:109} INFO - [2023-04-02 17:18:13,602] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:18:13,658] {processor.py:623} INFO - DAG(s) dict_keys(['inovus_etl_odb_to_mrr']) retrieved from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:18:13,697] {logging_mixin.py:109} INFO - [2023-04-02 17:18:13,697] {dag.py:1834} INFO - Sync 1 DAGs
+[2023-04-02 17:18:13,723] {logging_mixin.py:109} INFO - [2023-04-02 17:18:13,722] {dag.py:2287} INFO - Setting next_dagrun for inovus_etl_odb_to_mrr to 2023-04-02 00:00:00+00:00
+[2023-04-02 17:18:13,756] {processor.py:170} INFO - Processing /opt/airflow/dags/inovus_etl_odb_mrr.py took 0.199 seconds
+[2023-04-02 17:18:43,992] {processor.py:162} INFO - Started process (PID=953) to work on /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:18:44,002] {processor.py:613} INFO - Processing file /opt/airflow/dags/inovus_etl_odb_mrr.py for tasks to queue
+[2023-04-02 17:18:44,004] {logging_mixin.py:109} INFO - [2023-04-02 17:18:44,004] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:18:44,069] {processor.py:623} INFO - DAG(s) dict_keys(['inovus_etl_odb_to_mrr']) retrieved from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:18:44,149] {logging_mixin.py:109} INFO - [2023-04-02 17:18:44,149] {dag.py:1834} INFO - Sync 1 DAGs
+[2023-04-02 17:18:44,206] {logging_mixin.py:109} INFO - [2023-04-02 17:18:44,206] {dag.py:2287} INFO - Setting next_dagrun for inovus_etl_odb_to_mrr to 2023-04-02 00:00:00+00:00
+[2023-04-02 17:18:44,242] {processor.py:170} INFO - Processing /opt/airflow/dags/inovus_etl_odb_mrr.py took 0.258 seconds
+[2023-04-02 17:19:14,889] {processor.py:162} INFO - Started process (PID=1011) to work on /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:19:14,898] {processor.py:613} INFO - Processing file /opt/airflow/dags/inovus_etl_odb_mrr.py for tasks to queue
+[2023-04-02 17:19:14,901] {logging_mixin.py:109} INFO - [2023-04-02 17:19:14,901] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:19:14,945] {processor.py:623} INFO - DAG(s) dict_keys(['inovus_etl_odb_to_mrr']) retrieved from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:19:14,997] {logging_mixin.py:109} INFO - [2023-04-02 17:19:14,997] {dag.py:1834} INFO - Sync 1 DAGs
+[2023-04-02 17:19:15,046] {logging_mixin.py:109} INFO - [2023-04-02 17:19:15,046] {dag.py:2287} INFO - Setting next_dagrun for inovus_etl_odb_to_mrr to 2023-04-02 00:00:00+00:00
+[2023-04-02 17:19:15,092] {processor.py:170} INFO - Processing /opt/airflow/dags/inovus_etl_odb_mrr.py took 0.211 seconds
+[2023-04-02 17:19:45,709] {processor.py:162} INFO - Started process (PID=1065) to work on /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:19:45,714] {processor.py:613} INFO - Processing file /opt/airflow/dags/inovus_etl_odb_mrr.py for tasks to queue
+[2023-04-02 17:19:45,716] {logging_mixin.py:109} INFO - [2023-04-02 17:19:45,716] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:19:45,745] {processor.py:623} INFO - DAG(s) dict_keys(['inovus_etl_odb_to_mrr']) retrieved from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:19:45,779] {logging_mixin.py:109} INFO - [2023-04-02 17:19:45,779] {dag.py:1834} INFO - Sync 1 DAGs
+[2023-04-02 17:19:45,797] {logging_mixin.py:109} INFO - [2023-04-02 17:19:45,797] {dag.py:2287} INFO - Setting next_dagrun for inovus_etl_odb_to_mrr to 2023-04-02 00:00:00+00:00
+[2023-04-02 17:19:45,812] {processor.py:170} INFO - Processing /opt/airflow/dags/inovus_etl_odb_mrr.py took 0.108 seconds
+[2023-04-02 17:20:16,484] {processor.py:162} INFO - Started process (PID=1118) to work on /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:20:16,490] {processor.py:613} INFO - Processing file /opt/airflow/dags/inovus_etl_odb_mrr.py for tasks to queue
+[2023-04-02 17:20:16,493] {logging_mixin.py:109} INFO - [2023-04-02 17:20:16,493] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:20:16,644] {processor.py:623} INFO - DAG(s) dict_keys(['inovus_etl_odb_to_mrr']) retrieved from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:20:16,723] {logging_mixin.py:109} INFO - [2023-04-02 17:20:16,723] {dag.py:1834} INFO - Sync 1 DAGs
+[2023-04-02 17:20:16,770] {logging_mixin.py:109} INFO - [2023-04-02 17:20:16,770] {dag.py:2287} INFO - Setting next_dagrun for inovus_etl_odb_to_mrr to 2023-04-02 00:00:00+00:00
+[2023-04-02 17:20:16,788] {processor.py:170} INFO - Processing /opt/airflow/dags/inovus_etl_odb_mrr.py took 0.311 seconds
+[2023-04-02 17:20:47,617] {processor.py:162} INFO - Started process (PID=1172) to work on /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:20:47,622] {processor.py:613} INFO - Processing file /opt/airflow/dags/inovus_etl_odb_mrr.py for tasks to queue
+[2023-04-02 17:20:47,626] {logging_mixin.py:109} INFO - [2023-04-02 17:20:47,626] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:20:47,659] {processor.py:623} INFO - DAG(s) dict_keys(['inovus_etl_odb_to_mrr']) retrieved from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:20:47,686] {logging_mixin.py:109} INFO - [2023-04-02 17:20:47,686] {dag.py:1834} INFO - Sync 1 DAGs
+[2023-04-02 17:20:47,707] {logging_mixin.py:109} INFO - [2023-04-02 17:20:47,707] {dag.py:2287} INFO - Setting next_dagrun for inovus_etl_odb_to_mrr to 2023-04-02 00:00:00+00:00
+[2023-04-02 17:20:47,728] {processor.py:170} INFO - Processing /opt/airflow/dags/inovus_etl_odb_mrr.py took 0.117 seconds
+[2023-04-02 17:21:18,325] {processor.py:162} INFO - Started process (PID=1226) to work on /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:21:18,344] {processor.py:613} INFO - Processing file /opt/airflow/dags/inovus_etl_odb_mrr.py for tasks to queue
+[2023-04-02 17:21:18,346] {logging_mixin.py:109} INFO - [2023-04-02 17:21:18,346] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:21:18,410] {processor.py:623} INFO - DAG(s) dict_keys(['inovus_etl_odb_to_mrr']) retrieved from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:21:18,455] {logging_mixin.py:109} INFO - [2023-04-02 17:21:18,455] {dag.py:1834} INFO - Sync 1 DAGs
+[2023-04-02 17:21:18,548] {logging_mixin.py:109} INFO - [2023-04-02 17:21:18,548] {dag.py:2287} INFO - Setting next_dagrun for inovus_etl_odb_to_mrr to 2023-04-02 00:00:00+00:00
+[2023-04-02 17:21:18,572] {processor.py:170} INFO - Processing /opt/airflow/dags/inovus_etl_odb_mrr.py took 0.253 seconds
+[2023-04-02 17:21:48,976] {processor.py:162} INFO - Started process (PID=1289) to work on /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:21:48,980] {processor.py:613} INFO - Processing file /opt/airflow/dags/inovus_etl_odb_mrr.py for tasks to queue
+[2023-04-02 17:21:48,985] {logging_mixin.py:109} INFO - [2023-04-02 17:21:48,985] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:21:49,044] {processor.py:623} INFO - DAG(s) dict_keys(['inovus_etl_odb_to_mrr']) retrieved from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:21:49,090] {logging_mixin.py:109} INFO - [2023-04-02 17:21:49,090] {dag.py:1834} INFO - Sync 1 DAGs
+[2023-04-02 17:21:49,130] {logging_mixin.py:109} INFO - [2023-04-02 17:21:49,130] {dag.py:2287} INFO - Setting next_dagrun for inovus_etl_odb_to_mrr to 2023-04-02 00:00:00+00:00
+[2023-04-02 17:21:49,162] {processor.py:170} INFO - Processing /opt/airflow/dags/inovus_etl_odb_mrr.py took 0.198 seconds
+[2023-04-02 17:22:19,344] {processor.py:162} INFO - Started process (PID=1343) to work on /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:22:19,351] {processor.py:613} INFO - Processing file /opt/airflow/dags/inovus_etl_odb_mrr.py for tasks to queue
+[2023-04-02 17:22:19,355] {logging_mixin.py:109} INFO - [2023-04-02 17:22:19,355] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:22:19,397] {processor.py:623} INFO - DAG(s) dict_keys(['inovus_etl_odb_to_mrr']) retrieved from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:22:19,432] {logging_mixin.py:109} INFO - [2023-04-02 17:22:19,432] {dag.py:1834} INFO - Sync 1 DAGs
+[2023-04-02 17:22:19,452] {logging_mixin.py:109} INFO - [2023-04-02 17:22:19,452] {dag.py:2287} INFO - Setting next_dagrun for inovus_etl_odb_to_mrr to 2023-04-02 00:00:00+00:00
+[2023-04-02 17:22:19,465] {processor.py:170} INFO - Processing /opt/airflow/dags/inovus_etl_odb_mrr.py took 0.125 seconds
+[2023-04-02 17:22:49,853] {processor.py:162} INFO - Started process (PID=1395) to work on /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:22:49,917] {processor.py:613} INFO - Processing file /opt/airflow/dags/inovus_etl_odb_mrr.py for tasks to queue
+[2023-04-02 17:22:49,922] {logging_mixin.py:109} INFO - [2023-04-02 17:22:49,922] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:22:49,982] {processor.py:623} INFO - DAG(s) dict_keys(['inovus_etl_odb_to_mrr']) retrieved from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:22:50,037] {logging_mixin.py:109} INFO - [2023-04-02 17:22:50,036] {dag.py:1834} INFO - Sync 1 DAGs
+[2023-04-02 17:22:50,083] {logging_mixin.py:109} INFO - [2023-04-02 17:22:50,083] {dag.py:2287} INFO - Setting next_dagrun for inovus_etl_odb_to_mrr to 2023-04-02 00:00:00+00:00
+[2023-04-02 17:22:50,174] {processor.py:170} INFO - Processing /opt/airflow/dags/inovus_etl_odb_mrr.py took 0.361 seconds
+[2023-04-02 17:23:20,973] {processor.py:162} INFO - Started process (PID=1457) to work on /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:23:20,984] {processor.py:613} INFO - Processing file /opt/airflow/dags/inovus_etl_odb_mrr.py for tasks to queue
+[2023-04-02 17:23:20,993] {logging_mixin.py:109} INFO - [2023-04-02 17:23:20,993] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:23:21,088] {processor.py:623} INFO - DAG(s) dict_keys(['inovus_etl_odb_to_mrr']) retrieved from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:23:21,174] {logging_mixin.py:109} INFO - [2023-04-02 17:23:21,173] {dag.py:1834} INFO - Sync 1 DAGs
+[2023-04-02 17:23:21,349] {logging_mixin.py:109} INFO - [2023-04-02 17:23:21,349] {dag.py:2287} INFO - Setting next_dagrun for inovus_etl_odb_to_mrr to 2023-04-02 00:00:00+00:00
+[2023-04-02 17:23:21,409] {processor.py:170} INFO - Processing /opt/airflow/dags/inovus_etl_odb_mrr.py took 0.452 seconds
+[2023-04-02 17:23:51,514] {processor.py:162} INFO - Started process (PID=1511) to work on /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:23:51,522] {processor.py:613} INFO - Processing file /opt/airflow/dags/inovus_etl_odb_mrr.py for tasks to queue
+[2023-04-02 17:23:51,524] {logging_mixin.py:109} INFO - [2023-04-02 17:23:51,524] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:23:51,562] {processor.py:623} INFO - DAG(s) dict_keys(['inovus_etl_odb_to_mrr']) retrieved from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:23:51,599] {logging_mixin.py:109} INFO - [2023-04-02 17:23:51,599] {dag.py:1834} INFO - Sync 1 DAGs
+[2023-04-02 17:23:51,623] {logging_mixin.py:109} INFO - [2023-04-02 17:23:51,623] {dag.py:2287} INFO - Setting next_dagrun for inovus_etl_odb_to_mrr to 2023-04-02 00:00:00+00:00
+[2023-04-02 17:23:51,650] {processor.py:170} INFO - Processing /opt/airflow/dags/inovus_etl_odb_mrr.py took 0.145 seconds
+[2023-04-02 17:24:21,744] {processor.py:162} INFO - Started process (PID=1565) to work on /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:24:21,758] {processor.py:613} INFO - Processing file /opt/airflow/dags/inovus_etl_odb_mrr.py for tasks to queue
+[2023-04-02 17:24:21,763] {logging_mixin.py:109} INFO - [2023-04-02 17:24:21,763] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:24:21,801] {processor.py:623} INFO - DAG(s) dict_keys(['inovus_etl_odb_to_mrr']) retrieved from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:24:21,837] {logging_mixin.py:109} INFO - [2023-04-02 17:24:21,836] {dag.py:1834} INFO - Sync 1 DAGs
+[2023-04-02 17:24:21,869] {logging_mixin.py:109} INFO - [2023-04-02 17:24:21,869] {dag.py:2287} INFO - Setting next_dagrun for inovus_etl_odb_to_mrr to 2023-04-02 00:00:00+00:00
+[2023-04-02 17:24:21,886] {processor.py:170} INFO - Processing /opt/airflow/dags/inovus_etl_odb_mrr.py took 0.150 seconds
+[2023-04-02 17:24:52,277] {processor.py:162} INFO - Started process (PID=1626) to work on /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:24:52,285] {processor.py:613} INFO - Processing file /opt/airflow/dags/inovus_etl_odb_mrr.py for tasks to queue
+[2023-04-02 17:24:52,289] {logging_mixin.py:109} INFO - [2023-04-02 17:24:52,288] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:24:52,327] {processor.py:623} INFO - DAG(s) dict_keys(['inovus_etl_odb_to_mrr']) retrieved from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:24:52,371] {logging_mixin.py:109} INFO - [2023-04-02 17:24:52,370] {dag.py:1834} INFO - Sync 1 DAGs
+[2023-04-02 17:24:52,403] {logging_mixin.py:109} INFO - [2023-04-02 17:24:52,403] {dag.py:2287} INFO - Setting next_dagrun for inovus_etl_odb_to_mrr to 2023-04-02 00:00:00+00:00
+[2023-04-02 17:24:52,437] {processor.py:170} INFO - Processing /opt/airflow/dags/inovus_etl_odb_mrr.py took 0.170 seconds
+[2023-04-02 17:25:23,073] {processor.py:162} INFO - Started process (PID=1683) to work on /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:25:23,081] {processor.py:613} INFO - Processing file /opt/airflow/dags/inovus_etl_odb_mrr.py for tasks to queue
+[2023-04-02 17:25:23,084] {logging_mixin.py:109} INFO - [2023-04-02 17:25:23,084] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:25:23,125] {processor.py:623} INFO - DAG(s) dict_keys(['inovus_etl_odb_to_mrr']) retrieved from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:25:23,153] {logging_mixin.py:109} INFO - [2023-04-02 17:25:23,152] {dag.py:1834} INFO - Sync 1 DAGs
+[2023-04-02 17:25:23,193] {logging_mixin.py:109} INFO - [2023-04-02 17:25:23,192] {dag.py:2287} INFO - Setting next_dagrun for inovus_etl_odb_to_mrr to 2023-04-02 00:00:00+00:00
+[2023-04-02 17:25:23,240] {processor.py:170} INFO - Processing /opt/airflow/dags/inovus_etl_odb_mrr.py took 0.176 seconds
+[2023-04-02 17:25:53,297] {processor.py:162} INFO - Started process (PID=1737) to work on /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:25:53,302] {processor.py:613} INFO - Processing file /opt/airflow/dags/inovus_etl_odb_mrr.py for tasks to queue
+[2023-04-02 17:25:53,305] {logging_mixin.py:109} INFO - [2023-04-02 17:25:53,305] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:25:53,339] {processor.py:623} INFO - DAG(s) dict_keys(['inovus_etl_odb_to_mrr']) retrieved from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:25:53,368] {logging_mixin.py:109} INFO - [2023-04-02 17:25:53,368] {dag.py:1834} INFO - Sync 1 DAGs
+[2023-04-02 17:25:53,395] {logging_mixin.py:109} INFO - [2023-04-02 17:25:53,395] {dag.py:2287} INFO - Setting next_dagrun for inovus_etl_odb_to_mrr to 2023-04-02 00:00:00+00:00
+[2023-04-02 17:25:53,414] {processor.py:170} INFO - Processing /opt/airflow/dags/inovus_etl_odb_mrr.py took 0.125 seconds
+[2023-04-02 17:26:23,473] {processor.py:162} INFO - Started process (PID=1802) to work on /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:26:23,476] {processor.py:613} INFO - Processing file /opt/airflow/dags/inovus_etl_odb_mrr.py for tasks to queue
+[2023-04-02 17:26:23,479] {logging_mixin.py:109} INFO - [2023-04-02 17:26:23,479] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:26:23,504] {processor.py:623} INFO - DAG(s) dict_keys(['inovus_etl_odb_to_mrr']) retrieved from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:26:23,532] {logging_mixin.py:109} INFO - [2023-04-02 17:26:23,532] {dag.py:1834} INFO - Sync 1 DAGs
+[2023-04-02 17:26:23,553] {logging_mixin.py:109} INFO - [2023-04-02 17:26:23,553] {dag.py:2287} INFO - Setting next_dagrun for inovus_etl_odb_to_mrr to 2023-04-02 00:00:00+00:00
+[2023-04-02 17:26:23,570] {processor.py:170} INFO - Processing /opt/airflow/dags/inovus_etl_odb_mrr.py took 0.101 seconds
+[2023-04-02 17:26:53,755] {processor.py:162} INFO - Started process (PID=1855) to work on /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:26:53,770] {processor.py:613} INFO - Processing file /opt/airflow/dags/inovus_etl_odb_mrr.py for tasks to queue
+[2023-04-02 17:26:53,773] {logging_mixin.py:109} INFO - [2023-04-02 17:26:53,773] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:26:53,988] {processor.py:623} INFO - DAG(s) dict_keys(['inovus_etl_odb_to_mrr']) retrieved from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:26:54,130] {logging_mixin.py:109} INFO - [2023-04-02 17:26:54,130] {dag.py:1834} INFO - Sync 1 DAGs
+[2023-04-02 17:26:54,236] {logging_mixin.py:109} INFO - [2023-04-02 17:26:54,236] {dag.py:2287} INFO - Setting next_dagrun for inovus_etl_odb_to_mrr to 2023-04-02 00:00:00+00:00
+[2023-04-02 17:26:54,301] {processor.py:170} INFO - Processing /opt/airflow/dags/inovus_etl_odb_mrr.py took 0.567 seconds
+[2023-04-02 17:27:24,351] {processor.py:162} INFO - Started process (PID=1907) to work on /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:27:24,359] {processor.py:613} INFO - Processing file /opt/airflow/dags/inovus_etl_odb_mrr.py for tasks to queue
+[2023-04-02 17:27:24,361] {logging_mixin.py:109} INFO - [2023-04-02 17:27:24,361] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:27:24,387] {processor.py:623} INFO - DAG(s) dict_keys(['inovus_etl_odb_to_mrr']) retrieved from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:27:24,413] {logging_mixin.py:109} INFO - [2023-04-02 17:27:24,413] {dag.py:1834} INFO - Sync 1 DAGs
+[2023-04-02 17:27:24,432] {logging_mixin.py:109} INFO - [2023-04-02 17:27:24,432] {dag.py:2287} INFO - Setting next_dagrun for inovus_etl_odb_to_mrr to 2023-04-02 00:00:00+00:00
+[2023-04-02 17:27:24,446] {processor.py:170} INFO - Processing /opt/airflow/dags/inovus_etl_odb_mrr.py took 0.099 seconds
+[2023-04-02 17:27:54,608] {processor.py:162} INFO - Started process (PID=1961) to work on /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:27:54,611] {processor.py:613} INFO - Processing file /opt/airflow/dags/inovus_etl_odb_mrr.py for tasks to queue
+[2023-04-02 17:27:54,614] {logging_mixin.py:109} INFO - [2023-04-02 17:27:54,614] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:27:54,655] {processor.py:623} INFO - DAG(s) dict_keys(['inovus_etl_odb_to_mrr']) retrieved from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:27:54,690] {logging_mixin.py:109} INFO - [2023-04-02 17:27:54,690] {dag.py:1834} INFO - Sync 1 DAGs
+[2023-04-02 17:27:54,714] {logging_mixin.py:109} INFO - [2023-04-02 17:27:54,714] {dag.py:2287} INFO - Setting next_dagrun for inovus_etl_odb_to_mrr to 2023-04-02 00:00:00+00:00
+[2023-04-02 17:27:54,733] {processor.py:170} INFO - Processing /opt/airflow/dags/inovus_etl_odb_mrr.py took 0.129 seconds
+[2023-04-02 17:28:25,263] {processor.py:162} INFO - Started process (PID=2015) to work on /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:28:25,275] {processor.py:613} INFO - Processing file /opt/airflow/dags/inovus_etl_odb_mrr.py for tasks to queue
+[2023-04-02 17:28:25,278] {logging_mixin.py:109} INFO - [2023-04-02 17:28:25,278] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:28:25,307] {processor.py:623} INFO - DAG(s) dict_keys(['inovus_etl_odb_to_mrr']) retrieved from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:28:25,342] {logging_mixin.py:109} INFO - [2023-04-02 17:28:25,342] {dag.py:1834} INFO - Sync 1 DAGs
+[2023-04-02 17:28:25,365] {logging_mixin.py:109} INFO - [2023-04-02 17:28:25,365] {dag.py:2287} INFO - Setting next_dagrun for inovus_etl_odb_to_mrr to 2023-04-02 00:00:00+00:00
+[2023-04-02 17:28:25,389] {processor.py:170} INFO - Processing /opt/airflow/dags/inovus_etl_odb_mrr.py took 0.132 seconds
+[2023-04-02 17:28:56,465] {processor.py:162} INFO - Started process (PID=2076) to work on /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:28:56,496] {processor.py:613} INFO - Processing file /opt/airflow/dags/inovus_etl_odb_mrr.py for tasks to queue
+[2023-04-02 17:28:56,500] {logging_mixin.py:109} INFO - [2023-04-02 17:28:56,500] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:28:56,796] {processor.py:623} INFO - DAG(s) dict_keys(['inovus_etl_odb_to_mrr']) retrieved from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:28:56,925] {logging_mixin.py:109} INFO - [2023-04-02 17:28:56,925] {dag.py:1834} INFO - Sync 1 DAGs
+[2023-04-02 17:28:57,047] {logging_mixin.py:109} INFO - [2023-04-02 17:28:57,047] {dag.py:2287} INFO - Setting next_dagrun for inovus_etl_odb_to_mrr to 2023-04-02 00:00:00+00:00
+[2023-04-02 17:28:57,149] {processor.py:170} INFO - Processing /opt/airflow/dags/inovus_etl_odb_mrr.py took 0.712 seconds
+[2023-04-02 17:29:27,890] {processor.py:162} INFO - Started process (PID=2122) to work on /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:29:27,894] {processor.py:613} INFO - Processing file /opt/airflow/dags/inovus_etl_odb_mrr.py for tasks to queue
+[2023-04-02 17:29:27,897] {logging_mixin.py:109} INFO - [2023-04-02 17:29:27,897] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:29:27,942] {processor.py:623} INFO - DAG(s) dict_keys(['inovus_etl_odb_to_mrr']) retrieved from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:29:27,988] {logging_mixin.py:109} INFO - [2023-04-02 17:29:27,988] {dag.py:1834} INFO - Sync 1 DAGs
+[2023-04-02 17:29:28,024] {logging_mixin.py:109} INFO - [2023-04-02 17:29:28,024] {dag.py:2287} INFO - Setting next_dagrun for inovus_etl_odb_to_mrr to 2023-04-02 00:00:00+00:00
+[2023-04-02 17:29:28,063] {processor.py:170} INFO - Processing /opt/airflow/dags/inovus_etl_odb_mrr.py took 0.180 seconds
+[2023-04-02 17:29:58,885] {processor.py:162} INFO - Started process (PID=2176) to work on /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:29:58,892] {processor.py:613} INFO - Processing file /opt/airflow/dags/inovus_etl_odb_mrr.py for tasks to queue
+[2023-04-02 17:29:58,895] {logging_mixin.py:109} INFO - [2023-04-02 17:29:58,895] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:29:58,942] {processor.py:623} INFO - DAG(s) dict_keys(['inovus_etl_odb_to_mrr']) retrieved from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:29:59,007] {logging_mixin.py:109} INFO - [2023-04-02 17:29:59,006] {dag.py:1834} INFO - Sync 1 DAGs
+[2023-04-02 17:29:59,084] {logging_mixin.py:109} INFO - [2023-04-02 17:29:59,084] {dag.py:2287} INFO - Setting next_dagrun for inovus_etl_odb_to_mrr to 2023-04-02 00:00:00+00:00
+[2023-04-02 17:29:59,103] {processor.py:170} INFO - Processing /opt/airflow/dags/inovus_etl_odb_mrr.py took 0.232 seconds
+[2023-04-02 17:30:29,885] {processor.py:162} INFO - Started process (PID=2240) to work on /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:30:29,890] {processor.py:613} INFO - Processing file /opt/airflow/dags/inovus_etl_odb_mrr.py for tasks to queue
+[2023-04-02 17:30:29,892] {logging_mixin.py:109} INFO - [2023-04-02 17:30:29,892] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:30:29,953] {processor.py:623} INFO - DAG(s) dict_keys(['inovus_etl_odb_to_mrr']) retrieved from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:30:30,003] {logging_mixin.py:109} INFO - [2023-04-02 17:30:30,002] {dag.py:1834} INFO - Sync 1 DAGs
+[2023-04-02 17:30:30,039] {logging_mixin.py:109} INFO - [2023-04-02 17:30:30,039] {dag.py:2287} INFO - Setting next_dagrun for inovus_etl_odb_to_mrr to 2023-04-02 00:00:00+00:00
+[2023-04-02 17:30:30,076] {processor.py:170} INFO - Processing /opt/airflow/dags/inovus_etl_odb_mrr.py took 0.198 seconds
+[2023-04-02 17:31:00,231] {processor.py:162} INFO - Started process (PID=2294) to work on /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:31:00,235] {processor.py:613} INFO - Processing file /opt/airflow/dags/inovus_etl_odb_mrr.py for tasks to queue
+[2023-04-02 17:31:00,239] {logging_mixin.py:109} INFO - [2023-04-02 17:31:00,239] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:31:00,280] {processor.py:623} INFO - DAG(s) dict_keys(['inovus_etl_odb_to_mrr']) retrieved from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:31:00,325] {logging_mixin.py:109} INFO - [2023-04-02 17:31:00,325] {dag.py:1834} INFO - Sync 1 DAGs
+[2023-04-02 17:31:00,355] {logging_mixin.py:109} INFO - [2023-04-02 17:31:00,355] {dag.py:2287} INFO - Setting next_dagrun for inovus_etl_odb_to_mrr to 2023-04-02 00:00:00+00:00
+[2023-04-02 17:31:00,376] {processor.py:170} INFO - Processing /opt/airflow/dags/inovus_etl_odb_mrr.py took 0.153 seconds
+[2023-04-02 17:31:30,874] {processor.py:162} INFO - Started process (PID=2357) to work on /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:31:30,880] {processor.py:613} INFO - Processing file /opt/airflow/dags/inovus_etl_odb_mrr.py for tasks to queue
+[2023-04-02 17:31:30,884] {logging_mixin.py:109} INFO - [2023-04-02 17:31:30,883] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:31:30,935] {processor.py:623} INFO - DAG(s) dict_keys(['inovus_etl_odb_to_mrr']) retrieved from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:31:30,992] {logging_mixin.py:109} INFO - [2023-04-02 17:31:30,991] {dag.py:1834} INFO - Sync 1 DAGs
+[2023-04-02 17:31:31,027] {logging_mixin.py:109} INFO - [2023-04-02 17:31:31,027] {dag.py:2287} INFO - Setting next_dagrun for inovus_etl_odb_to_mrr to 2023-04-02 00:00:00+00:00
+[2023-04-02 17:31:31,049] {processor.py:170} INFO - Processing /opt/airflow/dags/inovus_etl_odb_mrr.py took 0.189 seconds
+[2023-04-02 17:32:01,565] {processor.py:162} INFO - Started process (PID=2410) to work on /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:32:01,575] {processor.py:613} INFO - Processing file /opt/airflow/dags/inovus_etl_odb_mrr.py for tasks to queue
+[2023-04-02 17:32:01,579] {logging_mixin.py:109} INFO - [2023-04-02 17:32:01,578] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:32:01,690] {processor.py:623} INFO - DAG(s) dict_keys(['inovus_etl_odb_to_mrr']) retrieved from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:32:01,746] {logging_mixin.py:109} INFO - [2023-04-02 17:32:01,746] {dag.py:1834} INFO - Sync 1 DAGs
+[2023-04-02 17:32:01,816] {logging_mixin.py:109} INFO - [2023-04-02 17:32:01,810] {dag.py:2287} INFO - Setting next_dagrun for inovus_etl_odb_to_mrr to 2023-04-02 00:00:00+00:00
+[2023-04-02 17:32:01,850] {processor.py:170} INFO - Processing /opt/airflow/dags/inovus_etl_odb_mrr.py took 0.306 seconds
+[2023-04-02 17:32:32,552] {processor.py:162} INFO - Started process (PID=2463) to work on /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:32:32,562] {processor.py:613} INFO - Processing file /opt/airflow/dags/inovus_etl_odb_mrr.py for tasks to queue
+[2023-04-02 17:32:32,566] {logging_mixin.py:109} INFO - [2023-04-02 17:32:32,565] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:32:32,620] {processor.py:623} INFO - DAG(s) dict_keys(['inovus_etl_odb_to_mrr']) retrieved from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:32:32,677] {logging_mixin.py:109} INFO - [2023-04-02 17:32:32,676] {dag.py:1834} INFO - Sync 1 DAGs
+[2023-04-02 17:32:32,719] {logging_mixin.py:109} INFO - [2023-04-02 17:32:32,718] {dag.py:2287} INFO - Setting next_dagrun for inovus_etl_odb_to_mrr to 2023-04-02 00:00:00+00:00
+[2023-04-02 17:32:32,751] {processor.py:170} INFO - Processing /opt/airflow/dags/inovus_etl_odb_mrr.py took 0.212 seconds
+[2023-04-02 17:33:03,034] {processor.py:162} INFO - Started process (PID=2520) to work on /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:33:03,039] {processor.py:613} INFO - Processing file /opt/airflow/dags/inovus_etl_odb_mrr.py for tasks to queue
+[2023-04-02 17:33:03,042] {logging_mixin.py:109} INFO - [2023-04-02 17:33:03,042] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:33:03,076] {processor.py:623} INFO - DAG(s) dict_keys(['inovus_etl_odb_to_mrr']) retrieved from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:33:03,105] {logging_mixin.py:109} INFO - [2023-04-02 17:33:03,105] {dag.py:1834} INFO - Sync 1 DAGs
+[2023-04-02 17:33:03,132] {logging_mixin.py:109} INFO - [2023-04-02 17:33:03,131] {dag.py:2287} INFO - Setting next_dagrun for inovus_etl_odb_to_mrr to 2023-04-02 00:00:00+00:00
+[2023-04-02 17:33:03,157] {processor.py:170} INFO - Processing /opt/airflow/dags/inovus_etl_odb_mrr.py took 0.130 seconds
+[2023-04-02 17:33:33,567] {processor.py:162} INFO - Started process (PID=2584) to work on /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:33:33,576] {processor.py:613} INFO - Processing file /opt/airflow/dags/inovus_etl_odb_mrr.py for tasks to queue
+[2023-04-02 17:33:33,579] {logging_mixin.py:109} INFO - [2023-04-02 17:33:33,578] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:33:33,614] {processor.py:623} INFO - DAG(s) dict_keys(['inovus_etl_odb_to_mrr']) retrieved from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:33:33,647] {logging_mixin.py:109} INFO - [2023-04-02 17:33:33,647] {dag.py:1834} INFO - Sync 1 DAGs
+[2023-04-02 17:33:33,672] {logging_mixin.py:109} INFO - [2023-04-02 17:33:33,672] {dag.py:2287} INFO - Setting next_dagrun for inovus_etl_odb_to_mrr to 2023-04-02 00:00:00+00:00
+[2023-04-02 17:33:33,696] {processor.py:170} INFO - Processing /opt/airflow/dags/inovus_etl_odb_mrr.py took 0.138 seconds
+[2023-04-02 17:34:03,937] {processor.py:162} INFO - Started process (PID=2637) to work on /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:34:03,941] {processor.py:613} INFO - Processing file /opt/airflow/dags/inovus_etl_odb_mrr.py for tasks to queue
+[2023-04-02 17:34:03,945] {logging_mixin.py:109} INFO - [2023-04-02 17:34:03,945] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:34:03,993] {processor.py:623} INFO - DAG(s) dict_keys(['inovus_etl_odb_to_mrr']) retrieved from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:34:04,022] {logging_mixin.py:109} INFO - [2023-04-02 17:34:04,022] {dag.py:1834} INFO - Sync 1 DAGs
+[2023-04-02 17:34:04,051] {logging_mixin.py:109} INFO - [2023-04-02 17:34:04,051] {dag.py:2287} INFO - Setting next_dagrun for inovus_etl_odb_to_mrr to 2023-04-02 00:00:00+00:00
+[2023-04-02 17:34:04,077] {processor.py:170} INFO - Processing /opt/airflow/dags/inovus_etl_odb_mrr.py took 0.147 seconds
+[2023-04-02 17:34:34,419] {processor.py:162} INFO - Started process (PID=2698) to work on /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:34:34,428] {processor.py:613} INFO - Processing file /opt/airflow/dags/inovus_etl_odb_mrr.py for tasks to queue
+[2023-04-02 17:34:34,432] {logging_mixin.py:109} INFO - [2023-04-02 17:34:34,431] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:34:34,502] {processor.py:623} INFO - DAG(s) dict_keys(['inovus_etl_odb_to_mrr']) retrieved from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:34:34,602] {logging_mixin.py:109} INFO - [2023-04-02 17:34:34,602] {dag.py:1834} INFO - Sync 1 DAGs
+[2023-04-02 17:34:34,682] {logging_mixin.py:109} INFO - [2023-04-02 17:34:34,682] {dag.py:2287} INFO - Setting next_dagrun for inovus_etl_odb_to_mrr to 2023-04-02 00:00:00+00:00
+[2023-04-02 17:34:34,742] {processor.py:170} INFO - Processing /opt/airflow/dags/inovus_etl_odb_mrr.py took 0.343 seconds
+[2023-04-02 17:35:05,204] {processor.py:162} INFO - Started process (PID=2753) to work on /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:35:05,235] {processor.py:613} INFO - Processing file /opt/airflow/dags/inovus_etl_odb_mrr.py for tasks to queue
+[2023-04-02 17:35:05,246] {logging_mixin.py:109} INFO - [2023-04-02 17:35:05,246] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:35:05,492] {processor.py:623} INFO - DAG(s) dict_keys(['inovus_etl_odb_to_mrr']) retrieved from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:35:05,685] {logging_mixin.py:109} INFO - [2023-04-02 17:35:05,685] {dag.py:1834} INFO - Sync 1 DAGs
+[2023-04-02 17:35:05,798] {logging_mixin.py:109} INFO - [2023-04-02 17:35:05,798] {dag.py:2287} INFO - Setting next_dagrun for inovus_etl_odb_to_mrr to 2023-04-02 00:00:00+00:00
+[2023-04-02 17:35:05,861] {processor.py:170} INFO - Processing /opt/airflow/dags/inovus_etl_odb_mrr.py took 0.673 seconds
+[2023-04-02 17:35:36,622] {processor.py:162} INFO - Started process (PID=2807) to work on /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:35:36,626] {processor.py:613} INFO - Processing file /opt/airflow/dags/inovus_etl_odb_mrr.py for tasks to queue
+[2023-04-02 17:35:36,632] {logging_mixin.py:109} INFO - [2023-04-02 17:35:36,631] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:35:36,714] {processor.py:623} INFO - DAG(s) dict_keys(['inovus_etl_odb_to_mrr']) retrieved from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:35:36,761] {logging_mixin.py:109} INFO - [2023-04-02 17:35:36,761] {dag.py:1834} INFO - Sync 1 DAGs
+[2023-04-02 17:35:36,787] {logging_mixin.py:109} INFO - [2023-04-02 17:35:36,787] {dag.py:2287} INFO - Setting next_dagrun for inovus_etl_odb_to_mrr to 2023-04-02 00:00:00+00:00
+[2023-04-02 17:35:36,801] {processor.py:170} INFO - Processing /opt/airflow/dags/inovus_etl_odb_mrr.py took 0.200 seconds
+[2023-04-02 17:36:07,400] {processor.py:162} INFO - Started process (PID=2861) to work on /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:36:07,444] {processor.py:613} INFO - Processing file /opt/airflow/dags/inovus_etl_odb_mrr.py for tasks to queue
+[2023-04-02 17:36:07,473] {logging_mixin.py:109} INFO - [2023-04-02 17:36:07,473] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:36:07,837] {processor.py:623} INFO - DAG(s) dict_keys(['inovus_etl_odb_to_mrr']) retrieved from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:36:08,057] {logging_mixin.py:109} INFO - [2023-04-02 17:36:08,057] {dag.py:1834} INFO - Sync 1 DAGs
+[2023-04-02 17:36:08,120] {logging_mixin.py:109} INFO - [2023-04-02 17:36:08,120] {dag.py:2287} INFO - Setting next_dagrun for inovus_etl_odb_to_mrr to 2023-04-02 00:00:00+00:00
+[2023-04-02 17:36:08,154] {processor.py:170} INFO - Processing /opt/airflow/dags/inovus_etl_odb_mrr.py took 0.791 seconds
+[2023-04-02 17:36:38,646] {processor.py:162} INFO - Started process (PID=2925) to work on /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:36:38,651] {processor.py:613} INFO - Processing file /opt/airflow/dags/inovus_etl_odb_mrr.py for tasks to queue
+[2023-04-02 17:36:38,657] {logging_mixin.py:109} INFO - [2023-04-02 17:36:38,656] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:36:38,721] {processor.py:623} INFO - DAG(s) dict_keys(['inovus_etl_odb_to_mrr']) retrieved from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:36:38,819] {logging_mixin.py:109} INFO - [2023-04-02 17:36:38,818] {dag.py:1834} INFO - Sync 1 DAGs
+[2023-04-02 17:36:38,929] {logging_mixin.py:109} INFO - [2023-04-02 17:36:38,928] {dag.py:2287} INFO - Setting next_dagrun for inovus_etl_odb_to_mrr to 2023-04-02 00:00:00+00:00
+[2023-04-02 17:36:38,968] {processor.py:170} INFO - Processing /opt/airflow/dags/inovus_etl_odb_mrr.py took 0.336 seconds
+[2023-04-02 17:37:09,203] {processor.py:162} INFO - Started process (PID=2978) to work on /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:37:09,207] {processor.py:613} INFO - Processing file /opt/airflow/dags/inovus_etl_odb_mrr.py for tasks to queue
+[2023-04-02 17:37:09,211] {logging_mixin.py:109} INFO - [2023-04-02 17:37:09,210] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:37:09,256] {processor.py:623} INFO - DAG(s) dict_keys(['inovus_etl_odb_to_mrr']) retrieved from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:37:09,305] {logging_mixin.py:109} INFO - [2023-04-02 17:37:09,305] {dag.py:1834} INFO - Sync 1 DAGs
+[2023-04-02 17:37:09,328] {logging_mixin.py:109} INFO - [2023-04-02 17:37:09,328] {dag.py:2287} INFO - Setting next_dagrun for inovus_etl_odb_to_mrr to 2023-04-02 00:00:00+00:00
+[2023-04-02 17:37:09,350] {processor.py:170} INFO - Processing /opt/airflow/dags/inovus_etl_odb_mrr.py took 0.157 seconds
+[2023-04-02 17:37:39,545] {processor.py:162} INFO - Started process (PID=3032) to work on /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:37:39,564] {processor.py:613} INFO - Processing file /opt/airflow/dags/inovus_etl_odb_mrr.py for tasks to queue
+[2023-04-02 17:37:39,568] {logging_mixin.py:109} INFO - [2023-04-02 17:37:39,567] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:37:39,651] {processor.py:623} INFO - DAG(s) dict_keys(['inovus_etl_odb_to_mrr']) retrieved from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:37:39,858] {logging_mixin.py:109} INFO - [2023-04-02 17:37:39,857] {dag.py:1834} INFO - Sync 1 DAGs
+[2023-04-02 17:37:40,075] {logging_mixin.py:109} INFO - [2023-04-02 17:37:40,075] {dag.py:2287} INFO - Setting next_dagrun for inovus_etl_odb_to_mrr to 2023-04-02 00:00:00+00:00
+[2023-04-02 17:37:40,115] {processor.py:170} INFO - Processing /opt/airflow/dags/inovus_etl_odb_mrr.py took 0.601 seconds
+[2023-04-02 17:38:10,244] {processor.py:162} INFO - Started process (PID=3097) to work on /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:38:10,254] {processor.py:613} INFO - Processing file /opt/airflow/dags/inovus_etl_odb_mrr.py for tasks to queue
+[2023-04-02 17:38:10,258] {logging_mixin.py:109} INFO - [2023-04-02 17:38:10,257] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:38:10,356] {processor.py:623} INFO - DAG(s) dict_keys(['inovus_etl_odb_to_mrr']) retrieved from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:38:10,425] {logging_mixin.py:109} INFO - [2023-04-02 17:38:10,425] {dag.py:1834} INFO - Sync 1 DAGs
+[2023-04-02 17:38:10,500] {logging_mixin.py:109} INFO - [2023-04-02 17:38:10,500] {dag.py:2287} INFO - Setting next_dagrun for inovus_etl_odb_to_mrr to 2023-04-02 00:00:00+00:00
+[2023-04-02 17:38:10,543] {processor.py:170} INFO - Processing /opt/airflow/dags/inovus_etl_odb_mrr.py took 0.318 seconds
+[2023-04-02 17:38:41,113] {processor.py:162} INFO - Started process (PID=3149) to work on /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:38:41,121] {processor.py:613} INFO - Processing file /opt/airflow/dags/inovus_etl_odb_mrr.py for tasks to queue
+[2023-04-02 17:38:41,123] {logging_mixin.py:109} INFO - [2023-04-02 17:38:41,123] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:38:41,162] {processor.py:623} INFO - DAG(s) dict_keys(['inovus_etl_odb_to_mrr']) retrieved from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:38:41,197] {logging_mixin.py:109} INFO - [2023-04-02 17:38:41,197] {dag.py:1834} INFO - Sync 1 DAGs
+[2023-04-02 17:38:41,216] {logging_mixin.py:109} INFO - [2023-04-02 17:38:41,216] {dag.py:2287} INFO - Setting next_dagrun for inovus_etl_odb_to_mrr to 2023-04-02 00:00:00+00:00
+[2023-04-02 17:38:41,239] {processor.py:170} INFO - Processing /opt/airflow/dags/inovus_etl_odb_mrr.py took 0.134 seconds
+[2023-04-02 17:39:12,069] {processor.py:162} INFO - Started process (PID=3203) to work on /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:39:12,074] {processor.py:613} INFO - Processing file /opt/airflow/dags/inovus_etl_odb_mrr.py for tasks to queue
+[2023-04-02 17:39:12,076] {logging_mixin.py:109} INFO - [2023-04-02 17:39:12,076] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:39:12,118] {processor.py:623} INFO - DAG(s) dict_keys(['inovus_etl_odb_to_mrr']) retrieved from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:39:12,154] {logging_mixin.py:109} INFO - [2023-04-02 17:39:12,153] {dag.py:1834} INFO - Sync 1 DAGs
+[2023-04-02 17:39:12,183] {logging_mixin.py:109} INFO - [2023-04-02 17:39:12,183] {dag.py:2287} INFO - Setting next_dagrun for inovus_etl_odb_to_mrr to 2023-04-02 00:00:00+00:00
+[2023-04-02 17:39:12,201] {processor.py:170} INFO - Processing /opt/airflow/dags/inovus_etl_odb_mrr.py took 0.135 seconds
+[2023-04-02 17:39:43,148] {processor.py:162} INFO - Started process (PID=3267) to work on /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:39:43,152] {processor.py:613} INFO - Processing file /opt/airflow/dags/inovus_etl_odb_mrr.py for tasks to queue
+[2023-04-02 17:39:43,163] {logging_mixin.py:109} INFO - [2023-04-02 17:39:43,163] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:39:43,212] {processor.py:623} INFO - DAG(s) dict_keys(['inovus_etl_odb_to_mrr']) retrieved from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:39:43,241] {logging_mixin.py:109} INFO - [2023-04-02 17:39:43,240] {dag.py:1834} INFO - Sync 1 DAGs
+[2023-04-02 17:39:43,268] {logging_mixin.py:109} INFO - [2023-04-02 17:39:43,268] {dag.py:2287} INFO - Setting next_dagrun for inovus_etl_odb_to_mrr to 2023-04-02 00:00:00+00:00
+[2023-04-02 17:39:43,298] {processor.py:170} INFO - Processing /opt/airflow/dags/inovus_etl_odb_mrr.py took 0.171 seconds
+[2023-04-02 17:40:13,490] {processor.py:162} INFO - Started process (PID=3321) to work on /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:40:13,499] {processor.py:613} INFO - Processing file /opt/airflow/dags/inovus_etl_odb_mrr.py for tasks to queue
+[2023-04-02 17:40:13,501] {logging_mixin.py:109} INFO - [2023-04-02 17:40:13,501] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:40:13,543] {processor.py:623} INFO - DAG(s) dict_keys(['inovus_etl_odb_to_mrr']) retrieved from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:40:13,582] {logging_mixin.py:109} INFO - [2023-04-02 17:40:13,581] {dag.py:1834} INFO - Sync 1 DAGs
+[2023-04-02 17:40:13,608] {logging_mixin.py:109} INFO - [2023-04-02 17:40:13,608] {dag.py:2287} INFO - Setting next_dagrun for inovus_etl_odb_to_mrr to 2023-04-02 00:00:00+00:00
+[2023-04-02 17:40:13,626] {processor.py:170} INFO - Processing /opt/airflow/dags/inovus_etl_odb_mrr.py took 0.144 seconds
+[2023-04-02 17:40:44,104] {processor.py:162} INFO - Started process (PID=3385) to work on /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:40:44,112] {processor.py:613} INFO - Processing file /opt/airflow/dags/inovus_etl_odb_mrr.py for tasks to queue
+[2023-04-02 17:40:44,114] {logging_mixin.py:109} INFO - [2023-04-02 17:40:44,114] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:40:44,146] {processor.py:623} INFO - DAG(s) dict_keys(['inovus_etl_odb_to_mrr']) retrieved from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:40:44,173] {logging_mixin.py:109} INFO - [2023-04-02 17:40:44,173] {dag.py:1834} INFO - Sync 1 DAGs
+[2023-04-02 17:40:44,196] {logging_mixin.py:109} INFO - [2023-04-02 17:40:44,196] {dag.py:2287} INFO - Setting next_dagrun for inovus_etl_odb_to_mrr to 2023-04-02 00:00:00+00:00
+[2023-04-02 17:40:44,216] {processor.py:170} INFO - Processing /opt/airflow/dags/inovus_etl_odb_mrr.py took 0.124 seconds
+[2023-04-02 17:41:15,170] {processor.py:162} INFO - Started process (PID=3439) to work on /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:41:15,180] {processor.py:613} INFO - Processing file /opt/airflow/dags/inovus_etl_odb_mrr.py for tasks to queue
+[2023-04-02 17:41:15,182] {logging_mixin.py:109} INFO - [2023-04-02 17:41:15,182] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:41:15,283] {processor.py:623} INFO - DAG(s) dict_keys(['inovus_etl_odb_to_mrr']) retrieved from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:41:15,455] {logging_mixin.py:109} INFO - [2023-04-02 17:41:15,455] {dag.py:1834} INFO - Sync 1 DAGs
+[2023-04-02 17:41:15,532] {logging_mixin.py:109} INFO - [2023-04-02 17:41:15,532] {dag.py:2287} INFO - Setting next_dagrun for inovus_etl_odb_to_mrr to 2023-04-02 00:00:00+00:00
+[2023-04-02 17:41:15,545] {processor.py:170} INFO - Processing /opt/airflow/dags/inovus_etl_odb_mrr.py took 0.392 seconds
+[2023-04-02 17:41:45,913] {processor.py:162} INFO - Started process (PID=3502) to work on /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:41:45,925] {processor.py:613} INFO - Processing file /opt/airflow/dags/inovus_etl_odb_mrr.py for tasks to queue
+[2023-04-02 17:41:45,928] {logging_mixin.py:109} INFO - [2023-04-02 17:41:45,927] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:41:45,978] {processor.py:623} INFO - DAG(s) dict_keys(['inovus_etl_odb_to_mrr']) retrieved from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:41:46,025] {logging_mixin.py:109} INFO - [2023-04-02 17:41:46,025] {dag.py:1834} INFO - Sync 1 DAGs
+[2023-04-02 17:41:46,076] {logging_mixin.py:109} INFO - [2023-04-02 17:41:46,076] {dag.py:2287} INFO - Setting next_dagrun for inovus_etl_odb_to_mrr to 2023-04-02 00:00:00+00:00
+[2023-04-02 17:41:46,110] {processor.py:170} INFO - Processing /opt/airflow/dags/inovus_etl_odb_mrr.py took 0.203 seconds
+[2023-04-02 17:42:16,448] {processor.py:162} INFO - Started process (PID=3556) to work on /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:42:16,457] {processor.py:613} INFO - Processing file /opt/airflow/dags/inovus_etl_odb_mrr.py for tasks to queue
+[2023-04-02 17:42:16,460] {logging_mixin.py:109} INFO - [2023-04-02 17:42:16,460] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:42:16,544] {processor.py:623} INFO - DAG(s) dict_keys(['inovus_etl_odb_to_mrr']) retrieved from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:42:16,580] {logging_mixin.py:109} INFO - [2023-04-02 17:42:16,579] {dag.py:1834} INFO - Sync 1 DAGs
+[2023-04-02 17:42:16,606] {logging_mixin.py:109} INFO - [2023-04-02 17:42:16,606] {dag.py:2287} INFO - Setting next_dagrun for inovus_etl_odb_to_mrr to 2023-04-02 00:00:00+00:00
+[2023-04-02 17:42:16,625] {processor.py:170} INFO - Processing /opt/airflow/dags/inovus_etl_odb_mrr.py took 0.187 seconds
+[2023-04-02 17:42:46,891] {processor.py:162} INFO - Started process (PID=3608) to work on /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:42:46,895] {processor.py:613} INFO - Processing file /opt/airflow/dags/inovus_etl_odb_mrr.py for tasks to queue
+[2023-04-02 17:42:46,898] {logging_mixin.py:109} INFO - [2023-04-02 17:42:46,898] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:42:46,943] {processor.py:623} INFO - DAG(s) dict_keys(['inovus_etl_odb_to_mrr']) retrieved from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:42:47,020] {logging_mixin.py:109} INFO - [2023-04-02 17:42:47,019] {dag.py:1834} INFO - Sync 1 DAGs
+[2023-04-02 17:42:47,049] {logging_mixin.py:109} INFO - [2023-04-02 17:42:47,049] {dag.py:2287} INFO - Setting next_dagrun for inovus_etl_odb_to_mrr to 2023-04-02 00:00:00+00:00
+[2023-04-02 17:42:47,070] {processor.py:170} INFO - Processing /opt/airflow/dags/inovus_etl_odb_mrr.py took 0.191 seconds
+[2023-04-02 17:43:17,648] {processor.py:162} INFO - Started process (PID=3669) to work on /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:43:17,654] {processor.py:613} INFO - Processing file /opt/airflow/dags/inovus_etl_odb_mrr.py for tasks to queue
+[2023-04-02 17:43:17,658] {logging_mixin.py:109} INFO - [2023-04-02 17:43:17,658] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:43:17,734] {processor.py:623} INFO - DAG(s) dict_keys(['inovus_etl_odb_to_mrr']) retrieved from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:43:17,781] {logging_mixin.py:109} INFO - [2023-04-02 17:43:17,780] {dag.py:1834} INFO - Sync 1 DAGs
+[2023-04-02 17:43:17,823] {logging_mixin.py:109} INFO - [2023-04-02 17:43:17,823] {dag.py:2287} INFO - Setting next_dagrun for inovus_etl_odb_to_mrr to 2023-04-02 00:00:00+00:00
+[2023-04-02 17:43:17,853] {processor.py:170} INFO - Processing /opt/airflow/dags/inovus_etl_odb_mrr.py took 0.217 seconds
+[2023-04-02 17:43:47,977] {processor.py:162} INFO - Started process (PID=3724) to work on /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:43:47,989] {processor.py:613} INFO - Processing file /opt/airflow/dags/inovus_etl_odb_mrr.py for tasks to queue
+[2023-04-02 17:43:47,995] {logging_mixin.py:109} INFO - [2023-04-02 17:43:47,994] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:43:48,089] {processor.py:623} INFO - DAG(s) dict_keys(['inovus_etl_odb_to_mrr']) retrieved from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:43:48,156] {logging_mixin.py:109} INFO - [2023-04-02 17:43:48,155] {dag.py:1834} INFO - Sync 1 DAGs
+[2023-04-02 17:43:48,203] {logging_mixin.py:109} INFO - [2023-04-02 17:43:48,203] {dag.py:2287} INFO - Setting next_dagrun for inovus_etl_odb_to_mrr to 2023-04-02 00:00:00+00:00
+[2023-04-02 17:43:48,238] {processor.py:170} INFO - Processing /opt/airflow/dags/inovus_etl_odb_mrr.py took 0.272 seconds
+[2023-04-02 17:44:18,603] {processor.py:162} INFO - Started process (PID=3779) to work on /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:44:18,607] {processor.py:613} INFO - Processing file /opt/airflow/dags/inovus_etl_odb_mrr.py for tasks to queue
+[2023-04-02 17:44:18,612] {logging_mixin.py:109} INFO - [2023-04-02 17:44:18,611] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:44:18,668] {processor.py:623} INFO - DAG(s) dict_keys(['inovus_etl_odb_to_mrr']) retrieved from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:44:18,710] {logging_mixin.py:109} INFO - [2023-04-02 17:44:18,710] {dag.py:1834} INFO - Sync 1 DAGs
+[2023-04-02 17:44:18,736] {logging_mixin.py:109} INFO - [2023-04-02 17:44:18,735] {dag.py:2287} INFO - Setting next_dagrun for inovus_etl_odb_to_mrr to 2023-04-02 00:00:00+00:00
+[2023-04-02 17:44:18,756] {processor.py:170} INFO - Processing /opt/airflow/dags/inovus_etl_odb_mrr.py took 0.159 seconds
+[2023-04-02 17:44:49,491] {processor.py:162} INFO - Started process (PID=3833) to work on /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:44:49,496] {processor.py:613} INFO - Processing file /opt/airflow/dags/inovus_etl_odb_mrr.py for tasks to queue
+[2023-04-02 17:44:49,498] {logging_mixin.py:109} INFO - [2023-04-02 17:44:49,498] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:44:49,531] {processor.py:623} INFO - DAG(s) dict_keys(['inovus_etl_odb_to_mrr']) retrieved from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:44:49,567] {logging_mixin.py:109} INFO - [2023-04-02 17:44:49,567] {dag.py:1834} INFO - Sync 1 DAGs
+[2023-04-02 17:44:49,594] {logging_mixin.py:109} INFO - [2023-04-02 17:44:49,593] {dag.py:2287} INFO - Setting next_dagrun for inovus_etl_odb_to_mrr to 2023-04-02 00:00:00+00:00
+[2023-04-02 17:44:49,610] {processor.py:170} INFO - Processing /opt/airflow/dags/inovus_etl_odb_mrr.py took 0.128 seconds
+[2023-04-02 17:45:20,304] {processor.py:162} INFO - Started process (PID=3897) to work on /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:45:20,314] {processor.py:613} INFO - Processing file /opt/airflow/dags/inovus_etl_odb_mrr.py for tasks to queue
+[2023-04-02 17:45:20,318] {logging_mixin.py:109} INFO - [2023-04-02 17:45:20,317] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:45:20,373] {processor.py:623} INFO - DAG(s) dict_keys(['inovus_etl_odb_to_mrr']) retrieved from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:45:20,422] {logging_mixin.py:109} INFO - [2023-04-02 17:45:20,421] {dag.py:1834} INFO - Sync 1 DAGs
+[2023-04-02 17:45:20,465] {logging_mixin.py:109} INFO - [2023-04-02 17:45:20,465] {dag.py:2287} INFO - Setting next_dagrun for inovus_etl_odb_to_mrr to 2023-04-02 00:00:00+00:00
+[2023-04-02 17:45:20,494] {processor.py:170} INFO - Processing /opt/airflow/dags/inovus_etl_odb_mrr.py took 0.194 seconds
+[2023-04-02 17:45:50,908] {processor.py:162} INFO - Started process (PID=3951) to work on /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:45:50,913] {processor.py:613} INFO - Processing file /opt/airflow/dags/inovus_etl_odb_mrr.py for tasks to queue
+[2023-04-02 17:45:50,917] {logging_mixin.py:109} INFO - [2023-04-02 17:45:50,917] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:45:50,956] {processor.py:623} INFO - DAG(s) dict_keys(['inovus_etl_odb_to_mrr']) retrieved from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:45:51,019] {logging_mixin.py:109} INFO - [2023-04-02 17:45:51,018] {dag.py:1834} INFO - Sync 1 DAGs
+[2023-04-02 17:45:51,072] {logging_mixin.py:109} INFO - [2023-04-02 17:45:51,071] {dag.py:2287} INFO - Setting next_dagrun for inovus_etl_odb_to_mrr to 2023-04-02 00:00:00+00:00
+[2023-04-02 17:45:51,100] {processor.py:170} INFO - Processing /opt/airflow/dags/inovus_etl_odb_mrr.py took 0.198 seconds
+[2023-04-02 17:46:21,384] {processor.py:162} INFO - Started process (PID=4015) to work on /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:46:21,466] {processor.py:613} INFO - Processing file /opt/airflow/dags/inovus_etl_odb_mrr.py for tasks to queue
+[2023-04-02 17:46:21,510] {logging_mixin.py:109} INFO - [2023-04-02 17:46:21,510] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:46:21,586] {processor.py:623} INFO - DAG(s) dict_keys(['inovus_etl_odb_to_mrr']) retrieved from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:46:21,642] {logging_mixin.py:109} INFO - [2023-04-02 17:46:21,642] {dag.py:1834} INFO - Sync 1 DAGs
+[2023-04-02 17:46:21,674] {logging_mixin.py:109} INFO - [2023-04-02 17:46:21,673] {dag.py:2287} INFO - Setting next_dagrun for inovus_etl_odb_to_mrr to 2023-04-02 00:00:00+00:00
+[2023-04-02 17:46:21,693] {processor.py:170} INFO - Processing /opt/airflow/dags/inovus_etl_odb_mrr.py took 0.374 seconds
+[2023-04-02 17:46:51,853] {processor.py:162} INFO - Started process (PID=4070) to work on /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:46:51,858] {processor.py:613} INFO - Processing file /opt/airflow/dags/inovus_etl_odb_mrr.py for tasks to queue
+[2023-04-02 17:46:51,863] {logging_mixin.py:109} INFO - [2023-04-02 17:46:51,860] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:46:51,898] {processor.py:623} INFO - DAG(s) dict_keys(['inovus_etl_odb_to_mrr']) retrieved from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:46:51,946] {logging_mixin.py:109} INFO - [2023-04-02 17:46:51,946] {dag.py:1834} INFO - Sync 1 DAGs
+[2023-04-02 17:46:51,986] {logging_mixin.py:109} INFO - [2023-04-02 17:46:51,986] {dag.py:2287} INFO - Setting next_dagrun for inovus_etl_odb_to_mrr to 2023-04-02 00:00:00+00:00
+[2023-04-02 17:46:52,002] {processor.py:170} INFO - Processing /opt/airflow/dags/inovus_etl_odb_mrr.py took 0.153 seconds
+[2023-04-02 17:47:22,074] {processor.py:162} INFO - Started process (PID=4123) to work on /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:47:22,087] {processor.py:613} INFO - Processing file /opt/airflow/dags/inovus_etl_odb_mrr.py for tasks to queue
+[2023-04-02 17:47:22,092] {logging_mixin.py:109} INFO - [2023-04-02 17:47:22,091] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:47:22,169] {processor.py:623} INFO - DAG(s) dict_keys(['inovus_etl_odb_to_mrr']) retrieved from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:47:22,220] {logging_mixin.py:109} INFO - [2023-04-02 17:47:22,219] {dag.py:1834} INFO - Sync 1 DAGs
+[2023-04-02 17:47:22,267] {logging_mixin.py:109} INFO - [2023-04-02 17:47:22,267] {dag.py:2287} INFO - Setting next_dagrun for inovus_etl_odb_to_mrr to 2023-04-02 00:00:00+00:00
+[2023-04-02 17:47:22,303] {processor.py:170} INFO - Processing /opt/airflow/dags/inovus_etl_odb_mrr.py took 0.238 seconds
+[2023-04-02 17:47:52,422] {processor.py:162} INFO - Started process (PID=4185) to work on /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:47:52,432] {processor.py:613} INFO - Processing file /opt/airflow/dags/inovus_etl_odb_mrr.py for tasks to queue
+[2023-04-02 17:47:52,436] {logging_mixin.py:109} INFO - [2023-04-02 17:47:52,435] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:47:52,493] {processor.py:623} INFO - DAG(s) dict_keys(['inovus_etl_odb_to_mrr']) retrieved from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:47:52,540] {logging_mixin.py:109} INFO - [2023-04-02 17:47:52,540] {dag.py:1834} INFO - Sync 1 DAGs
+[2023-04-02 17:47:52,576] {logging_mixin.py:109} INFO - [2023-04-02 17:47:52,575] {dag.py:2287} INFO - Setting next_dagrun for inovus_etl_odb_to_mrr to 2023-04-02 00:00:00+00:00
+[2023-04-02 17:47:52,602] {processor.py:170} INFO - Processing /opt/airflow/dags/inovus_etl_odb_mrr.py took 0.191 seconds
+[2023-04-02 17:48:22,803] {processor.py:162} INFO - Started process (PID=4238) to work on /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:48:22,812] {processor.py:613} INFO - Processing file /opt/airflow/dags/inovus_etl_odb_mrr.py for tasks to queue
+[2023-04-02 17:48:22,814] {logging_mixin.py:109} INFO - [2023-04-02 17:48:22,814] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:48:22,941] {processor.py:623} INFO - DAG(s) dict_keys(['inovus_etl_odb_to_mrr']) retrieved from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:48:23,156] {logging_mixin.py:109} INFO - [2023-04-02 17:48:23,156] {dag.py:1834} INFO - Sync 1 DAGs
+[2023-04-02 17:48:23,187] {logging_mixin.py:109} INFO - [2023-04-02 17:48:23,187] {dag.py:2287} INFO - Setting next_dagrun for inovus_etl_odb_to_mrr to 2023-04-02 00:00:00+00:00
+[2023-04-02 17:48:23,208] {processor.py:170} INFO - Processing /opt/airflow/dags/inovus_etl_odb_mrr.py took 0.417 seconds
+[2023-04-02 17:48:53,591] {processor.py:162} INFO - Started process (PID=4291) to work on /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:48:53,608] {processor.py:613} INFO - Processing file /opt/airflow/dags/inovus_etl_odb_mrr.py for tasks to queue
+[2023-04-02 17:48:53,610] {logging_mixin.py:109} INFO - [2023-04-02 17:48:53,610] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:48:53,730] {processor.py:623} INFO - DAG(s) dict_keys(['inovus_etl_odb_to_mrr']) retrieved from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:48:53,860] {logging_mixin.py:109} INFO - [2023-04-02 17:48:53,859] {dag.py:1834} INFO - Sync 1 DAGs
+[2023-04-02 17:48:53,952] {logging_mixin.py:109} INFO - [2023-04-02 17:48:53,952] {dag.py:2287} INFO - Setting next_dagrun for inovus_etl_odb_to_mrr to 2023-04-02 00:00:00+00:00
+[2023-04-02 17:48:53,990] {processor.py:170} INFO - Processing /opt/airflow/dags/inovus_etl_odb_mrr.py took 0.413 seconds
+[2023-04-02 17:49:24,265] {processor.py:162} INFO - Started process (PID=4344) to work on /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:49:24,270] {processor.py:613} INFO - Processing file /opt/airflow/dags/inovus_etl_odb_mrr.py for tasks to queue
+[2023-04-02 17:49:24,275] {logging_mixin.py:109} INFO - [2023-04-02 17:49:24,275] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:49:24,330] {processor.py:623} INFO - DAG(s) dict_keys(['inovus_etl_odb_to_mrr']) retrieved from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:49:24,388] {logging_mixin.py:109} INFO - [2023-04-02 17:49:24,388] {dag.py:1834} INFO - Sync 1 DAGs
+[2023-04-02 17:49:24,419] {logging_mixin.py:109} INFO - [2023-04-02 17:49:24,419] {dag.py:2287} INFO - Setting next_dagrun for inovus_etl_odb_to_mrr to 2023-04-02 00:00:00+00:00
+[2023-04-02 17:49:24,439] {processor.py:170} INFO - Processing /opt/airflow/dags/inovus_etl_odb_mrr.py took 0.179 seconds
+[2023-04-02 17:49:54,934] {processor.py:162} INFO - Started process (PID=4397) to work on /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:49:54,943] {processor.py:613} INFO - Processing file /opt/airflow/dags/inovus_etl_odb_mrr.py for tasks to queue
+[2023-04-02 17:49:54,945] {logging_mixin.py:109} INFO - [2023-04-02 17:49:54,945] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:49:55,004] {processor.py:623} INFO - DAG(s) dict_keys(['inovus_etl_odb_to_mrr']) retrieved from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:49:55,070] {logging_mixin.py:109} INFO - [2023-04-02 17:49:55,070] {dag.py:1834} INFO - Sync 1 DAGs
+[2023-04-02 17:49:55,096] {logging_mixin.py:109} INFO - [2023-04-02 17:49:55,096] {dag.py:2287} INFO - Setting next_dagrun for inovus_etl_odb_to_mrr to 2023-04-02 00:00:00+00:00
+[2023-04-02 17:49:55,116] {processor.py:170} INFO - Processing /opt/airflow/dags/inovus_etl_odb_mrr.py took 0.187 seconds
+[2023-04-02 17:50:25,346] {processor.py:162} INFO - Started process (PID=4461) to work on /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:50:25,358] {processor.py:613} INFO - Processing file /opt/airflow/dags/inovus_etl_odb_mrr.py for tasks to queue
+[2023-04-02 17:50:25,363] {logging_mixin.py:109} INFO - [2023-04-02 17:50:25,363] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:50:25,427] {processor.py:623} INFO - DAG(s) dict_keys(['inovus_etl_odb_to_mrr']) retrieved from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:50:25,488] {logging_mixin.py:109} INFO - [2023-04-02 17:50:25,488] {dag.py:1834} INFO - Sync 1 DAGs
+[2023-04-02 17:50:25,527] {logging_mixin.py:109} INFO - [2023-04-02 17:50:25,524] {dag.py:2287} INFO - Setting next_dagrun for inovus_etl_odb_to_mrr to 2023-04-02 00:00:00+00:00
+[2023-04-02 17:50:25,557] {processor.py:170} INFO - Processing /opt/airflow/dags/inovus_etl_odb_mrr.py took 0.228 seconds
+[2023-04-02 17:50:55,902] {processor.py:162} INFO - Started process (PID=4515) to work on /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:50:55,910] {processor.py:613} INFO - Processing file /opt/airflow/dags/inovus_etl_odb_mrr.py for tasks to queue
+[2023-04-02 17:50:55,916] {logging_mixin.py:109} INFO - [2023-04-02 17:50:55,916] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:50:55,944] {processor.py:623} INFO - DAG(s) dict_keys(['inovus_etl_odb_to_mrr']) retrieved from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:50:55,988] {logging_mixin.py:109} INFO - [2023-04-02 17:50:55,988] {dag.py:1834} INFO - Sync 1 DAGs
+[2023-04-02 17:50:56,017] {logging_mixin.py:109} INFO - [2023-04-02 17:50:56,017] {dag.py:2287} INFO - Setting next_dagrun for inovus_etl_odb_to_mrr to 2023-04-02 00:00:00+00:00
+[2023-04-02 17:50:56,037] {processor.py:170} INFO - Processing /opt/airflow/dags/inovus_etl_odb_mrr.py took 0.141 seconds
+[2023-04-02 17:51:26,449] {processor.py:162} INFO - Started process (PID=4576) to work on /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:51:26,459] {processor.py:613} INFO - Processing file /opt/airflow/dags/inovus_etl_odb_mrr.py for tasks to queue
+[2023-04-02 17:51:26,475] {logging_mixin.py:109} INFO - [2023-04-02 17:51:26,470] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:51:26,528] {processor.py:623} INFO - DAG(s) dict_keys(['inovus_etl_odb_to_mrr']) retrieved from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:51:26,568] {logging_mixin.py:109} INFO - [2023-04-02 17:51:26,568] {dag.py:1834} INFO - Sync 1 DAGs
+[2023-04-02 17:51:26,602] {logging_mixin.py:109} INFO - [2023-04-02 17:51:26,602] {dag.py:2287} INFO - Setting next_dagrun for inovus_etl_odb_to_mrr to 2023-04-02 00:00:00+00:00
+[2023-04-02 17:51:26,622] {processor.py:170} INFO - Processing /opt/airflow/dags/inovus_etl_odb_mrr.py took 0.256 seconds
+[2023-04-02 17:51:57,419] {processor.py:162} INFO - Started process (PID=4633) to work on /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:51:57,427] {processor.py:613} INFO - Processing file /opt/airflow/dags/inovus_etl_odb_mrr.py for tasks to queue
+[2023-04-02 17:51:57,430] {logging_mixin.py:109} INFO - [2023-04-02 17:51:57,429] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:51:57,457] {processor.py:623} INFO - DAG(s) dict_keys(['inovus_etl_odb_to_mrr']) retrieved from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:51:57,482] {logging_mixin.py:109} INFO - [2023-04-02 17:51:57,481] {dag.py:1834} INFO - Sync 1 DAGs
+[2023-04-02 17:51:57,520] {logging_mixin.py:109} INFO - [2023-04-02 17:51:57,520] {dag.py:2287} INFO - Setting next_dagrun for inovus_etl_odb_to_mrr to 2023-04-02 00:00:00+00:00
+[2023-04-02 17:51:57,553] {processor.py:170} INFO - Processing /opt/airflow/dags/inovus_etl_odb_mrr.py took 0.140 seconds
+[2023-04-02 17:52:28,310] {processor.py:162} INFO - Started process (PID=4694) to work on /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:52:28,316] {processor.py:613} INFO - Processing file /opt/airflow/dags/inovus_etl_odb_mrr.py for tasks to queue
+[2023-04-02 17:52:28,318] {logging_mixin.py:109} INFO - [2023-04-02 17:52:28,318] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:52:28,381] {processor.py:623} INFO - DAG(s) dict_keys(['inovus_etl_odb_to_mrr']) retrieved from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:52:28,428] {logging_mixin.py:109} INFO - [2023-04-02 17:52:28,428] {dag.py:1834} INFO - Sync 1 DAGs
+[2023-04-02 17:52:28,471] {logging_mixin.py:109} INFO - [2023-04-02 17:52:28,471] {dag.py:2287} INFO - Setting next_dagrun for inovus_etl_odb_to_mrr to 2023-04-02 00:00:00+00:00
+[2023-04-02 17:52:28,499] {processor.py:170} INFO - Processing /opt/airflow/dags/inovus_etl_odb_mrr.py took 0.194 seconds
+[2023-04-02 17:52:58,624] {processor.py:162} INFO - Started process (PID=4751) to work on /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:52:58,633] {processor.py:613} INFO - Processing file /opt/airflow/dags/inovus_etl_odb_mrr.py for tasks to queue
+[2023-04-02 17:52:58,637] {logging_mixin.py:109} INFO - [2023-04-02 17:52:58,636] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:52:58,674] {processor.py:623} INFO - DAG(s) dict_keys(['inovus_etl_odb_to_mrr']) retrieved from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:52:58,720] {logging_mixin.py:109} INFO - [2023-04-02 17:52:58,720] {dag.py:1834} INFO - Sync 1 DAGs
+[2023-04-02 17:52:58,751] {logging_mixin.py:109} INFO - [2023-04-02 17:52:58,751] {dag.py:2287} INFO - Setting next_dagrun for inovus_etl_odb_to_mrr to 2023-04-02 00:00:00+00:00
+[2023-04-02 17:52:58,770] {processor.py:170} INFO - Processing /opt/airflow/dags/inovus_etl_odb_mrr.py took 0.150 seconds
+[2023-04-02 17:53:29,054] {processor.py:162} INFO - Started process (PID=4806) to work on /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:53:29,065] {processor.py:613} INFO - Processing file /opt/airflow/dags/inovus_etl_odb_mrr.py for tasks to queue
+[2023-04-02 17:53:29,067] {logging_mixin.py:109} INFO - [2023-04-02 17:53:29,067] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:53:29,150] {processor.py:623} INFO - DAG(s) dict_keys(['inovus_etl_odb_to_mrr']) retrieved from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:53:29,204] {logging_mixin.py:109} INFO - [2023-04-02 17:53:29,203] {dag.py:1834} INFO - Sync 1 DAGs
+[2023-04-02 17:53:29,222] {logging_mixin.py:109} INFO - [2023-04-02 17:53:29,222] {dag.py:2287} INFO - Setting next_dagrun for inovus_etl_odb_to_mrr to 2023-04-02 00:00:00+00:00
+[2023-04-02 17:53:29,241] {processor.py:170} INFO - Processing /opt/airflow/dags/inovus_etl_odb_mrr.py took 0.194 seconds
+[2023-04-02 17:53:59,667] {processor.py:162} INFO - Started process (PID=4869) to work on /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:53:59,671] {processor.py:613} INFO - Processing file /opt/airflow/dags/inovus_etl_odb_mrr.py for tasks to queue
+[2023-04-02 17:53:59,673] {logging_mixin.py:109} INFO - [2023-04-02 17:53:59,673] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:53:59,705] {processor.py:623} INFO - DAG(s) dict_keys(['inovus_etl_odb_to_mrr']) retrieved from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:53:59,743] {logging_mixin.py:109} INFO - [2023-04-02 17:53:59,743] {dag.py:1834} INFO - Sync 1 DAGs
+[2023-04-02 17:53:59,767] {logging_mixin.py:109} INFO - [2023-04-02 17:53:59,767] {dag.py:2287} INFO - Setting next_dagrun for inovus_etl_odb_to_mrr to 2023-04-02 00:00:00+00:00
+[2023-04-02 17:53:59,791] {processor.py:170} INFO - Processing /opt/airflow/dags/inovus_etl_odb_mrr.py took 0.131 seconds
+[2023-04-02 17:54:30,381] {processor.py:162} INFO - Started process (PID=4923) to work on /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:54:30,389] {processor.py:613} INFO - Processing file /opt/airflow/dags/inovus_etl_odb_mrr.py for tasks to queue
+[2023-04-02 17:54:30,392] {logging_mixin.py:109} INFO - [2023-04-02 17:54:30,392] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:54:30,427] {processor.py:623} INFO - DAG(s) dict_keys(['inovus_etl_odb_to_mrr']) retrieved from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:54:30,460] {logging_mixin.py:109} INFO - [2023-04-02 17:54:30,460] {dag.py:1834} INFO - Sync 1 DAGs
+[2023-04-02 17:54:30,491] {logging_mixin.py:109} INFO - [2023-04-02 17:54:30,491] {dag.py:2287} INFO - Setting next_dagrun for inovus_etl_odb_to_mrr to 2023-04-02 00:00:00+00:00
+[2023-04-02 17:54:30,511] {processor.py:170} INFO - Processing /opt/airflow/dags/inovus_etl_odb_mrr.py took 0.135 seconds
+[2023-04-02 17:55:00,663] {processor.py:162} INFO - Started process (PID=4978) to work on /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:55:00,673] {processor.py:613} INFO - Processing file /opt/airflow/dags/inovus_etl_odb_mrr.py for tasks to queue
+[2023-04-02 17:55:00,678] {logging_mixin.py:109} INFO - [2023-04-02 17:55:00,678] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:55:00,742] {processor.py:623} INFO - DAG(s) dict_keys(['inovus_etl_odb_to_mrr']) retrieved from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:55:00,844] {logging_mixin.py:109} INFO - [2023-04-02 17:55:00,843] {dag.py:1834} INFO - Sync 1 DAGs
+[2023-04-02 17:55:00,867] {logging_mixin.py:109} INFO - [2023-04-02 17:55:00,867] {dag.py:2287} INFO - Setting next_dagrun for inovus_etl_odb_to_mrr to 2023-04-02 00:00:00+00:00
+[2023-04-02 17:55:00,886] {processor.py:170} INFO - Processing /opt/airflow/dags/inovus_etl_odb_mrr.py took 0.232 seconds
+[2023-04-02 17:55:31,436] {processor.py:162} INFO - Started process (PID=5043) to work on /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:55:31,484] {processor.py:613} INFO - Processing file /opt/airflow/dags/inovus_etl_odb_mrr.py for tasks to queue
+[2023-04-02 17:55:31,494] {logging_mixin.py:109} INFO - [2023-04-02 17:55:31,494] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:55:31,608] {processor.py:623} INFO - DAG(s) dict_keys(['inovus_etl_odb_to_mrr']) retrieved from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:55:31,651] {logging_mixin.py:109} INFO - [2023-04-02 17:55:31,651] {dag.py:1834} INFO - Sync 1 DAGs
+[2023-04-02 17:55:31,702] {logging_mixin.py:109} INFO - [2023-04-02 17:55:31,702] {dag.py:2287} INFO - Setting next_dagrun for inovus_etl_odb_to_mrr to 2023-04-02 00:00:00+00:00
+[2023-04-02 17:55:31,736] {processor.py:170} INFO - Processing /opt/airflow/dags/inovus_etl_odb_mrr.py took 0.317 seconds
+[2023-04-02 17:56:02,179] {processor.py:162} INFO - Started process (PID=5096) to work on /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:56:02,187] {processor.py:613} INFO - Processing file /opt/airflow/dags/inovus_etl_odb_mrr.py for tasks to queue
+[2023-04-02 17:56:02,189] {logging_mixin.py:109} INFO - [2023-04-02 17:56:02,189] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:56:02,226] {processor.py:623} INFO - DAG(s) dict_keys(['inovus_etl_odb_to_mrr']) retrieved from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:56:02,292] {logging_mixin.py:109} INFO - [2023-04-02 17:56:02,292] {dag.py:1834} INFO - Sync 1 DAGs
+[2023-04-02 17:56:02,320] {logging_mixin.py:109} INFO - [2023-04-02 17:56:02,319] {dag.py:2287} INFO - Setting next_dagrun for inovus_etl_odb_to_mrr to 2023-04-02 00:00:00+00:00
+[2023-04-02 17:56:02,345] {processor.py:170} INFO - Processing /opt/airflow/dags/inovus_etl_odb_mrr.py took 0.174 seconds
+[2023-04-02 17:56:32,384] {processor.py:162} INFO - Started process (PID=5160) to work on /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:56:32,389] {processor.py:613} INFO - Processing file /opt/airflow/dags/inovus_etl_odb_mrr.py for tasks to queue
+[2023-04-02 17:56:32,391] {logging_mixin.py:109} INFO - [2023-04-02 17:56:32,391] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:56:32,417] {processor.py:623} INFO - DAG(s) dict_keys(['inovus_etl_odb_to_mrr']) retrieved from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:56:32,443] {logging_mixin.py:109} INFO - [2023-04-02 17:56:32,443] {dag.py:1834} INFO - Sync 1 DAGs
+[2023-04-02 17:56:32,476] {logging_mixin.py:109} INFO - [2023-04-02 17:56:32,476] {dag.py:2287} INFO - Setting next_dagrun for inovus_etl_odb_to_mrr to 2023-04-02 00:00:00+00:00
+[2023-04-02 17:56:32,493] {processor.py:170} INFO - Processing /opt/airflow/dags/inovus_etl_odb_mrr.py took 0.113 seconds
+[2023-04-02 17:57:02,692] {processor.py:162} INFO - Started process (PID=5214) to work on /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:57:02,705] {processor.py:613} INFO - Processing file /opt/airflow/dags/inovus_etl_odb_mrr.py for tasks to queue
+[2023-04-02 17:57:02,708] {logging_mixin.py:109} INFO - [2023-04-02 17:57:02,708] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:57:02,812] {processor.py:623} INFO - DAG(s) dict_keys(['inovus_etl_odb_to_mrr']) retrieved from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:57:03,433] {logging_mixin.py:109} INFO - [2023-04-02 17:57:03,432] {dag.py:1834} INFO - Sync 1 DAGs
+[2023-04-02 17:57:03,476] {logging_mixin.py:109} INFO - [2023-04-02 17:57:03,476] {dag.py:2287} INFO - Setting next_dagrun for inovus_etl_odb_to_mrr to 2023-04-02 00:00:00+00:00
+[2023-04-02 17:57:03,516] {processor.py:170} INFO - Processing /opt/airflow/dags/inovus_etl_odb_mrr.py took 0.834 seconds
+[2023-04-02 17:57:34,410] {processor.py:162} INFO - Started process (PID=5276) to work on /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:57:34,425] {processor.py:613} INFO - Processing file /opt/airflow/dags/inovus_etl_odb_mrr.py for tasks to queue
+[2023-04-02 17:57:34,427] {logging_mixin.py:109} INFO - [2023-04-02 17:57:34,427] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:57:34,480] {processor.py:623} INFO - DAG(s) dict_keys(['inovus_etl_odb_to_mrr']) retrieved from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:57:34,544] {logging_mixin.py:109} INFO - [2023-04-02 17:57:34,544] {dag.py:1834} INFO - Sync 1 DAGs
+[2023-04-02 17:57:34,566] {logging_mixin.py:109} INFO - [2023-04-02 17:57:34,566] {dag.py:2287} INFO - Setting next_dagrun for inovus_etl_odb_to_mrr to 2023-04-02 00:00:00+00:00
+[2023-04-02 17:57:34,583] {processor.py:170} INFO - Processing /opt/airflow/dags/inovus_etl_odb_mrr.py took 0.176 seconds
+[2023-04-02 17:58:04,722] {processor.py:162} INFO - Started process (PID=5328) to work on /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:58:04,729] {processor.py:613} INFO - Processing file /opt/airflow/dags/inovus_etl_odb_mrr.py for tasks to queue
+[2023-04-02 17:58:04,732] {logging_mixin.py:109} INFO - [2023-04-02 17:58:04,732] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:58:04,784] {processor.py:623} INFO - DAG(s) dict_keys(['inovus_etl_odb_to_mrr']) retrieved from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:58:04,836] {logging_mixin.py:109} INFO - [2023-04-02 17:58:04,836] {dag.py:1834} INFO - Sync 1 DAGs
+[2023-04-02 17:58:04,874] {logging_mixin.py:109} INFO - [2023-04-02 17:58:04,874] {dag.py:2287} INFO - Setting next_dagrun for inovus_etl_odb_to_mrr to 2023-04-02 00:00:00+00:00
+[2023-04-02 17:58:04,894] {processor.py:170} INFO - Processing /opt/airflow/dags/inovus_etl_odb_mrr.py took 0.182 seconds
+[2023-04-02 17:58:35,074] {processor.py:162} INFO - Started process (PID=5383) to work on /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:58:35,082] {processor.py:613} INFO - Processing file /opt/airflow/dags/inovus_etl_odb_mrr.py for tasks to queue
+[2023-04-02 17:58:35,086] {logging_mixin.py:109} INFO - [2023-04-02 17:58:35,085] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:58:35,143] {processor.py:623} INFO - DAG(s) dict_keys(['inovus_etl_odb_to_mrr']) retrieved from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:58:35,184] {logging_mixin.py:109} INFO - [2023-04-02 17:58:35,184] {dag.py:1834} INFO - Sync 1 DAGs
+[2023-04-02 17:58:35,223] {logging_mixin.py:109} INFO - [2023-04-02 17:58:35,223] {dag.py:2287} INFO - Setting next_dagrun for inovus_etl_odb_to_mrr to 2023-04-02 00:00:00+00:00
+[2023-04-02 17:58:35,264] {processor.py:170} INFO - Processing /opt/airflow/dags/inovus_etl_odb_mrr.py took 0.202 seconds
+[2023-04-02 17:59:05,350] {processor.py:162} INFO - Started process (PID=5444) to work on /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:59:05,354] {processor.py:613} INFO - Processing file /opt/airflow/dags/inovus_etl_odb_mrr.py for tasks to queue
+[2023-04-02 17:59:05,358] {logging_mixin.py:109} INFO - [2023-04-02 17:59:05,358] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:59:05,437] {processor.py:623} INFO - DAG(s) dict_keys(['inovus_etl_odb_to_mrr']) retrieved from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:59:05,484] {logging_mixin.py:109} INFO - [2023-04-02 17:59:05,483] {dag.py:1834} INFO - Sync 1 DAGs
+[2023-04-02 17:59:05,531] {logging_mixin.py:109} INFO - [2023-04-02 17:59:05,531] {dag.py:2287} INFO - Setting next_dagrun for inovus_etl_odb_to_mrr to 2023-04-02 00:00:00+00:00
+[2023-04-02 17:59:05,553] {processor.py:170} INFO - Processing /opt/airflow/dags/inovus_etl_odb_mrr.py took 0.214 seconds
+[2023-04-02 17:59:35,835] {processor.py:162} INFO - Started process (PID=5501) to work on /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:59:35,838] {processor.py:613} INFO - Processing file /opt/airflow/dags/inovus_etl_odb_mrr.py for tasks to queue
+[2023-04-02 17:59:35,840] {logging_mixin.py:109} INFO - [2023-04-02 17:59:35,840] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:59:35,889] {processor.py:623} INFO - DAG(s) dict_keys(['inovus_etl_odb_to_mrr']) retrieved from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 17:59:35,924] {logging_mixin.py:109} INFO - [2023-04-02 17:59:35,924] {dag.py:1834} INFO - Sync 1 DAGs
+[2023-04-02 17:59:35,987] {logging_mixin.py:109} INFO - [2023-04-02 17:59:35,987] {dag.py:2287} INFO - Setting next_dagrun for inovus_etl_odb_to_mrr to 2023-04-02 00:00:00+00:00
+[2023-04-02 17:59:36,018] {processor.py:170} INFO - Processing /opt/airflow/dags/inovus_etl_odb_mrr.py took 0.189 seconds
+[2023-04-02 18:00:06,335] {processor.py:162} INFO - Started process (PID=5555) to work on /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 18:00:06,348] {processor.py:613} INFO - Processing file /opt/airflow/dags/inovus_etl_odb_mrr.py for tasks to queue
+[2023-04-02 18:00:06,355] {logging_mixin.py:109} INFO - [2023-04-02 18:00:06,354] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 18:00:06,450] {processor.py:623} INFO - DAG(s) dict_keys(['inovus_etl_odb_to_mrr']) retrieved from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 18:00:06,482] {logging_mixin.py:109} INFO - [2023-04-02 18:00:06,482] {dag.py:1834} INFO - Sync 1 DAGs
+[2023-04-02 18:00:06,507] {logging_mixin.py:109} INFO - [2023-04-02 18:00:06,507] {dag.py:2287} INFO - Setting next_dagrun for inovus_etl_odb_to_mrr to 2023-04-02 00:00:00+00:00
+[2023-04-02 18:00:06,530] {processor.py:170} INFO - Processing /opt/airflow/dags/inovus_etl_odb_mrr.py took 0.208 seconds
+[2023-04-02 18:00:36,676] {processor.py:162} INFO - Started process (PID=5619) to work on /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 18:00:36,682] {processor.py:613} INFO - Processing file /opt/airflow/dags/inovus_etl_odb_mrr.py for tasks to queue
+[2023-04-02 18:00:36,685] {logging_mixin.py:109} INFO - [2023-04-02 18:00:36,685] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 18:00:36,725] {processor.py:623} INFO - DAG(s) dict_keys(['inovus_etl_odb_to_mrr']) retrieved from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 18:00:36,763] {logging_mixin.py:109} INFO - [2023-04-02 18:00:36,763] {dag.py:1834} INFO - Sync 1 DAGs
+[2023-04-02 18:00:36,790] {logging_mixin.py:109} INFO - [2023-04-02 18:00:36,790] {dag.py:2287} INFO - Setting next_dagrun for inovus_etl_odb_to_mrr to 2023-04-02 00:00:00+00:00
+[2023-04-02 18:00:36,811] {processor.py:170} INFO - Processing /opt/airflow/dags/inovus_etl_odb_mrr.py took 0.148 seconds
+[2023-04-02 18:01:07,543] {processor.py:162} INFO - Started process (PID=5673) to work on /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 18:01:07,554] {processor.py:613} INFO - Processing file /opt/airflow/dags/inovus_etl_odb_mrr.py for tasks to queue
+[2023-04-02 18:01:07,557] {logging_mixin.py:109} INFO - [2023-04-02 18:01:07,556] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 18:01:07,629] {processor.py:623} INFO - DAG(s) dict_keys(['inovus_etl_odb_to_mrr']) retrieved from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 18:01:07,680] {logging_mixin.py:109} INFO - [2023-04-02 18:01:07,680] {dag.py:1834} INFO - Sync 1 DAGs
+[2023-04-02 18:01:07,709] {logging_mixin.py:109} INFO - [2023-04-02 18:01:07,709] {dag.py:2287} INFO - Setting next_dagrun for inovus_etl_odb_to_mrr to 2023-04-02 00:00:00+00:00
+[2023-04-02 18:01:07,740] {processor.py:170} INFO - Processing /opt/airflow/dags/inovus_etl_odb_mrr.py took 0.204 seconds
+[2023-04-02 18:01:37,966] {processor.py:162} INFO - Started process (PID=5737) to work on /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 18:01:37,970] {processor.py:613} INFO - Processing file /opt/airflow/dags/inovus_etl_odb_mrr.py for tasks to queue
+[2023-04-02 18:01:37,972] {logging_mixin.py:109} INFO - [2023-04-02 18:01:37,972] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 18:01:38,008] {processor.py:623} INFO - DAG(s) dict_keys(['inovus_etl_odb_to_mrr']) retrieved from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 18:01:38,040] {logging_mixin.py:109} INFO - [2023-04-02 18:01:38,039] {dag.py:1834} INFO - Sync 1 DAGs
+[2023-04-02 18:01:38,068] {logging_mixin.py:109} INFO - [2023-04-02 18:01:38,068] {dag.py:2287} INFO - Setting next_dagrun for inovus_etl_odb_to_mrr to 2023-04-02 00:00:00+00:00
+[2023-04-02 18:01:38,090] {processor.py:170} INFO - Processing /opt/airflow/dags/inovus_etl_odb_mrr.py took 0.130 seconds
+[2023-04-02 18:02:08,480] {processor.py:162} INFO - Started process (PID=5792) to work on /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 18:02:08,484] {processor.py:613} INFO - Processing file /opt/airflow/dags/inovus_etl_odb_mrr.py for tasks to queue
+[2023-04-02 18:02:08,489] {logging_mixin.py:109} INFO - [2023-04-02 18:02:08,486] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 18:02:08,550] {processor.py:623} INFO - DAG(s) dict_keys(['inovus_etl_odb_to_mrr']) retrieved from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 18:02:08,612] {logging_mixin.py:109} INFO - [2023-04-02 18:02:08,612] {dag.py:1834} INFO - Sync 1 DAGs
+[2023-04-02 18:02:08,673] {logging_mixin.py:109} INFO - [2023-04-02 18:02:08,673] {dag.py:2287} INFO - Setting next_dagrun for inovus_etl_odb_to_mrr to 2023-04-02 00:00:00+00:00
+[2023-04-02 18:02:08,701] {processor.py:170} INFO - Processing /opt/airflow/dags/inovus_etl_odb_mrr.py took 0.233 seconds
+[2023-04-02 18:02:39,554] {processor.py:162} INFO - Started process (PID=5855) to work on /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 18:02:39,560] {processor.py:613} INFO - Processing file /opt/airflow/dags/inovus_etl_odb_mrr.py for tasks to queue
+[2023-04-02 18:02:39,563] {logging_mixin.py:109} INFO - [2023-04-02 18:02:39,563] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 18:02:39,603] {processor.py:623} INFO - DAG(s) dict_keys(['inovus_etl_odb_to_mrr']) retrieved from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 18:02:39,662] {logging_mixin.py:109} INFO - [2023-04-02 18:02:39,662] {dag.py:1834} INFO - Sync 1 DAGs
+[2023-04-02 18:02:39,720] {logging_mixin.py:109} INFO - [2023-04-02 18:02:39,718] {dag.py:2287} INFO - Setting next_dagrun for inovus_etl_odb_to_mrr to 2023-04-02 00:00:00+00:00
+[2023-04-02 18:02:39,748] {processor.py:170} INFO - Processing /opt/airflow/dags/inovus_etl_odb_mrr.py took 0.200 seconds
+[2023-04-02 18:03:10,563] {processor.py:162} INFO - Started process (PID=5909) to work on /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 18:03:10,566] {processor.py:613} INFO - Processing file /opt/airflow/dags/inovus_etl_odb_mrr.py for tasks to queue
+[2023-04-02 18:03:10,568] {logging_mixin.py:109} INFO - [2023-04-02 18:03:10,568] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 18:03:10,602] {processor.py:623} INFO - DAG(s) dict_keys(['inovus_etl_odb_to_mrr']) retrieved from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 18:03:10,637] {logging_mixin.py:109} INFO - [2023-04-02 18:03:10,637] {dag.py:1834} INFO - Sync 1 DAGs
+[2023-04-02 18:03:10,661] {logging_mixin.py:109} INFO - [2023-04-02 18:03:10,661] {dag.py:2287} INFO - Setting next_dagrun for inovus_etl_odb_to_mrr to 2023-04-02 00:00:00+00:00
+[2023-04-02 18:03:10,679] {processor.py:170} INFO - Processing /opt/airflow/dags/inovus_etl_odb_mrr.py took 0.120 seconds
+[2023-04-02 18:03:41,078] {processor.py:162} INFO - Started process (PID=5963) to work on /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 18:03:41,082] {processor.py:613} INFO - Processing file /opt/airflow/dags/inovus_etl_odb_mrr.py for tasks to queue
+[2023-04-02 18:03:41,085] {logging_mixin.py:109} INFO - [2023-04-02 18:03:41,085] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 18:03:41,132] {processor.py:623} INFO - DAG(s) dict_keys(['inovus_etl_odb_to_mrr']) retrieved from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 18:03:41,169] {logging_mixin.py:109} INFO - [2023-04-02 18:03:41,169] {dag.py:1834} INFO - Sync 1 DAGs
+[2023-04-02 18:03:41,212] {logging_mixin.py:109} INFO - [2023-04-02 18:03:41,212] {dag.py:2287} INFO - Setting next_dagrun for inovus_etl_odb_to_mrr to 2023-04-02 00:00:00+00:00
+[2023-04-02 18:03:41,242] {processor.py:170} INFO - Processing /opt/airflow/dags/inovus_etl_odb_mrr.py took 0.176 seconds
+[2023-04-02 18:04:11,914] {processor.py:162} INFO - Started process (PID=6027) to work on /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 18:04:11,919] {processor.py:613} INFO - Processing file /opt/airflow/dags/inovus_etl_odb_mrr.py for tasks to queue
+[2023-04-02 18:04:11,922] {logging_mixin.py:109} INFO - [2023-04-02 18:04:11,921] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 18:04:12,028] {processor.py:623} INFO - DAG(s) dict_keys(['inovus_etl_odb_to_mrr']) retrieved from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 18:04:12,096] {logging_mixin.py:109} INFO - [2023-04-02 18:04:12,096] {dag.py:1834} INFO - Sync 1 DAGs
+[2023-04-02 18:04:12,139] {logging_mixin.py:109} INFO - [2023-04-02 18:04:12,133] {dag.py:2287} INFO - Setting next_dagrun for inovus_etl_odb_to_mrr to 2023-04-02 00:00:00+00:00
+[2023-04-02 18:04:12,183] {processor.py:170} INFO - Processing /opt/airflow/dags/inovus_etl_odb_mrr.py took 0.290 seconds
+[2023-04-02 18:04:43,135] {processor.py:162} INFO - Started process (PID=6081) to work on /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 18:04:43,145] {processor.py:613} INFO - Processing file /opt/airflow/dags/inovus_etl_odb_mrr.py for tasks to queue
+[2023-04-02 18:04:43,150] {logging_mixin.py:109} INFO - [2023-04-02 18:04:43,149] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 18:04:43,200] {processor.py:623} INFO - DAG(s) dict_keys(['inovus_etl_odb_to_mrr']) retrieved from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 18:04:43,248] {logging_mixin.py:109} INFO - [2023-04-02 18:04:43,242] {dag.py:1834} INFO - Sync 1 DAGs
+[2023-04-02 18:04:43,269] {logging_mixin.py:109} INFO - [2023-04-02 18:04:43,269] {dag.py:2287} INFO - Setting next_dagrun for inovus_etl_odb_to_mrr to 2023-04-02 00:00:00+00:00
+[2023-04-02 18:04:43,291] {processor.py:170} INFO - Processing /opt/airflow/dags/inovus_etl_odb_mrr.py took 0.161 seconds
+[2023-04-02 18:05:13,836] {processor.py:162} INFO - Started process (PID=6146) to work on /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 18:05:13,849] {processor.py:613} INFO - Processing file /opt/airflow/dags/inovus_etl_odb_mrr.py for tasks to queue
+[2023-04-02 18:05:13,853] {logging_mixin.py:109} INFO - [2023-04-02 18:05:13,853] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 18:05:13,936] {processor.py:623} INFO - DAG(s) dict_keys(['inovus_etl_odb_to_mrr']) retrieved from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 18:05:14,032] {logging_mixin.py:109} INFO - [2023-04-02 18:05:14,032] {dag.py:1834} INFO - Sync 1 DAGs
+[2023-04-02 18:05:14,070] {logging_mixin.py:109} INFO - [2023-04-02 18:05:14,070] {dag.py:2287} INFO - Setting next_dagrun for inovus_etl_odb_to_mrr to 2023-04-02 00:00:00+00:00
+[2023-04-02 18:05:14,119] {processor.py:170} INFO - Processing /opt/airflow/dags/inovus_etl_odb_mrr.py took 0.282 seconds
+[2023-04-02 18:05:44,624] {processor.py:162} INFO - Started process (PID=6200) to work on /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 18:05:44,637] {processor.py:613} INFO - Processing file /opt/airflow/dags/inovus_etl_odb_mrr.py for tasks to queue
+[2023-04-02 18:05:44,641] {logging_mixin.py:109} INFO - [2023-04-02 18:05:44,640] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 18:05:44,727] {processor.py:623} INFO - DAG(s) dict_keys(['inovus_etl_odb_to_mrr']) retrieved from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 18:05:44,783] {logging_mixin.py:109} INFO - [2023-04-02 18:05:44,782] {dag.py:1834} INFO - Sync 1 DAGs
+[2023-04-02 18:05:44,809] {logging_mixin.py:109} INFO - [2023-04-02 18:05:44,809] {dag.py:2287} INFO - Setting next_dagrun for inovus_etl_odb_to_mrr to 2023-04-02 00:00:00+00:00
+[2023-04-02 18:05:44,824] {processor.py:170} INFO - Processing /opt/airflow/dags/inovus_etl_odb_mrr.py took 0.204 seconds
+[2023-04-02 18:06:15,457] {processor.py:162} INFO - Started process (PID=6263) to work on /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 18:06:15,467] {processor.py:613} INFO - Processing file /opt/airflow/dags/inovus_etl_odb_mrr.py for tasks to queue
+[2023-04-02 18:06:15,474] {logging_mixin.py:109} INFO - [2023-04-02 18:06:15,473] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 18:06:15,548] {processor.py:623} INFO - DAG(s) dict_keys(['inovus_etl_odb_to_mrr']) retrieved from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 18:06:15,587] {logging_mixin.py:109} INFO - [2023-04-02 18:06:15,587] {dag.py:1834} INFO - Sync 1 DAGs
+[2023-04-02 18:06:15,618] {logging_mixin.py:109} INFO - [2023-04-02 18:06:15,617] {dag.py:2287} INFO - Setting next_dagrun for inovus_etl_odb_to_mrr to 2023-04-02 00:00:00+00:00
+[2023-04-02 18:06:15,650] {processor.py:170} INFO - Processing /opt/airflow/dags/inovus_etl_odb_mrr.py took 0.226 seconds
+[2023-04-02 18:06:46,614] {processor.py:162} INFO - Started process (PID=6315) to work on /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 18:06:46,621] {processor.py:613} INFO - Processing file /opt/airflow/dags/inovus_etl_odb_mrr.py for tasks to queue
+[2023-04-02 18:06:46,630] {logging_mixin.py:109} INFO - [2023-04-02 18:06:46,627] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 18:06:46,685] {processor.py:623} INFO - DAG(s) dict_keys(['inovus_etl_odb_to_mrr']) retrieved from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 18:06:46,724] {logging_mixin.py:109} INFO - [2023-04-02 18:06:46,724] {dag.py:1834} INFO - Sync 1 DAGs
+[2023-04-02 18:06:46,748] {logging_mixin.py:109} INFO - [2023-04-02 18:06:46,748] {dag.py:2287} INFO - Setting next_dagrun for inovus_etl_odb_to_mrr to 2023-04-02 00:00:00+00:00
+[2023-04-02 18:06:46,771] {processor.py:170} INFO - Processing /opt/airflow/dags/inovus_etl_odb_mrr.py took 0.170 seconds
+[2023-04-02 18:07:17,597] {processor.py:162} INFO - Started process (PID=6378) to work on /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 18:07:17,607] {processor.py:613} INFO - Processing file /opt/airflow/dags/inovus_etl_odb_mrr.py for tasks to queue
+[2023-04-02 18:07:17,612] {logging_mixin.py:109} INFO - [2023-04-02 18:07:17,611] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 18:07:17,715] {processor.py:623} INFO - DAG(s) dict_keys(['inovus_etl_odb_to_mrr']) retrieved from /opt/airflow/dags/inovus_etl_odb_mrr.py
+[2023-04-02 18:07:17,779] {logging_mixin.py:109} INFO - [2023-04-02 18:07:17,779] {dag.py:1834} INFO - Sync 1 DAGs
+[2023-04-02 18:07:17,831] {logging_mixin.py:109} INFO - [2023-04-02 18:07:17,831] {dag.py:2287} INFO - Setting next_dagrun for inovus_etl_odb_to_mrr to 2023-04-02 00:00:00+00:00
+[2023-04-02 18:07:17,869] {processor.py:170} INFO - Processing /opt/airflow/dags/inovus_etl_odb_mrr.py took 0.286 seconds
