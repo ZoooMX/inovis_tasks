@@ -68,7 +68,7 @@ mrr, stg, dwh - нужно почитать и понять почему мы с
 Создать ETL(airflow, nifi, spark, SSIS либо любой другой ETL) с переходами данными из оперативной базы в mrr -> stg -> dwh 
 Из оперативной базы данных в mrr брать данные с помощью high water mark(дельта).Для этого создать таблицу high_water_mark в который будет последний день или апдейт каждой таблицы. В mrr вытягиваем в параметр время в соответствии с таблицей источникам и в dwh обновляем high_water_mark последним значением которое есть в таблице.
 ##### Процесс выполнения 
-Выбран инструмент для реализации ETL - Apache Airflow. Запуск осуществлялся через Docker, параметры запуска [Docker-compose.yaml](https://github.com/ZoooMX/inovus_tasks/blob/main/airflow/docker-compose.yaml).     
+Выбрал инструмент для реализации ETL - Apache Airflow. Запуск осуществлялся через Docker, параметры запуска [Docker-compose.yaml](https://github.com/ZoooMX/inovus_tasks/blob/main/airflow/docker-compose.yaml).     
 1. Python скрипт [ETL ODB -> MRR -> high_water_mark](https://github.com/ZoooMX/inovus_tasks/blob/main/airflow/dags/inovus_etl_odb_mrr.py)
 2. Python скрипт [ETL MRR -> STG](https://github.com/ZoooMX/inovus_tasks/blob/main/airflow/dags/inovus_etl_mrr_stg.py)
 3. Python скрипт [ETL STG -> DWH -> high_water_mark](https://github.com/ZoooMX/inovus_tasks/blob/main/airflow/dags/inovus_etl_stg_dwh.py)
@@ -82,7 +82,7 @@ mrr, stg, dwh - нужно почитать и понять почему мы с
 ### Задача_5.
 В каждом пакете/даге/процессе сделать систему логов которые будут писаться в созданную для этого таблицу, время исполнения пакета + если есть ошибка(это делаеться в event handler).
 ##### Процесс выполнения 
-Развернул отдельную базу данных(отдельный инстанс), так как ETL частый процесс и логи будут копиться быстро и большом количестве, что может создать нагрузку и лишний риск на dwh базу. Очень эффективно вести логирование в колночной БД, к сожалению не имея опыта за реализацию в Clickhouse не брался. 
+Развернул отдельную базу данных(отдельный инстанс через Docker), так как ETL частый процесс и логи будут копиться быстро и большом количестве, что может создать нагрузку и лишний риск на dwh базу. Очень эффективно вести логирование в колночной БД, к сожалению не имея опыта за реализацию в Clickhouse не брался. 
 Систему логов реализовал через исключения с записью в таблицу информации об успешном или ошибки выполнении task в Airflow.
 1. Python скрипт [ETL ODB -> MRR -> high_water_mark](https://github.com/ZoooMX/inovus_tasks/blob/main/airflow/dags/inovus_etl_odb_mrr.py)
 2. Python скрипт [ETL MRR -> STG](https://github.com/ZoooMX/inovus_tasks/blob/main/airflow/dags/inovus_etl_mrr_stg.py)
@@ -92,11 +92,15 @@ mrr, stg, dwh - нужно почитать и понять почему мы с
 Создать процедуру и использовать там cursor, try и catch(при ошибки будет писаться лог в созданную для этого таблицу), сделать какую нибудь функцию.
 Все процедуры и функции сохранить в базе данных dwh.
 ##### Процесс выполнения 
+Реализовал 2 процедуры, которые принимают 2 параметра для поиска дубликатов в stg БД в dimension таблицах. Реализовал 2 функцкии, которые при вызове удаляют дубликаты иставляя одну уникальную запись. Логирование без парсинга CSV файла с встроенными логами Postgres не реализовал, необходимо лучше погрузиться в данный вопрос.  
+- процедуры [inovus_PROC_find_double_stg.sql](https://github.com/ZoooMX/inovus_tasks/blob/main/SQL/inovus_PROC_find_double_stg.sql)
+- функции [inovus_FUNC_del_copy_stg.sql](https://github.com/ZoooMX/inovus_tasks/blob/main/SQL/inovus_FUNC_del_copy_stg.sql)
 
 ### Задача_7.
 Сделать простой дашборд и модель данных на ваше усмотрение в Power BI из данных в dwh.
 ##### Процесс выполнения 
-
+В качестве BI инструмента выбрал Tableau. Данный иснтрумент имеет очень высокую конкуренцию на рынке. Так как я работаю на mac, полноценно использовать без виртуальной машины Power BI нет возможности. В Tableau подключл базу dwh с помощью JDBC драйвера и собрал дашборд. 
+- 
 #### Задача_8.
 Создать скрипт который будет делать backup для трех баз данных(mrr, stg, dwh).
 ##### Процесс выполнения 
